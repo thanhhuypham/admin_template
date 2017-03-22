@@ -1,0 +1,84 @@
+.type-6 .container-fluid .admin-panel {
+  width: 100%;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  opacity: 1;
+  transition: all .2s ease;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+.type-6 .container-fluid .admin-panel .admin-title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+  margin-bottom: 10px;
+}
+.type-6 .container-fluid .admin-panel .admin-title h2 {
+  margin: 5px 0 6px;
+  float: left;
+  display: block;
+  font-size: 20px;
+  color: #73879C;
+}
+.type-6 .container-fluid .admin-panel .admin-title h2 small {
+  margin-left: 10px;
+}
+.type-6 .container-fluid .admin-panel .admin-title ul.items {
+  min-width: 70px;
+  margin-right: 0;
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+}
+.type-6 .container-fluid .admin-panel .admin-title ul.items .collapse-link,
+.type-6 .container-fluid .admin-panel .admin-title ul.items .close-link {
+  opacity: 1;
+}
+.type-6 .container-fluid .admin-panel .admin-title ul.items > li {
+  float: left;
+  cursor: pointer;
+}
+.type-6 .container-fluid .admin-panel .admin-title ul.items > li > a {
+  padding: 5px;
+  color: #73879C;
+  font-size: 13px;
+}
+.type-6 .container-fluid .admin-panel .admin-content {
+  padding: 0 5px 6px;
+  width: 100%;
+}
+.type-6 .container-fluid .admin-panel .admin-content div.list-items {
+  margin-top: 15px;
+}
+.type-6 .container-fluid .admin-panel .admin-content div.list-items .date {
+  background: #ccc;
+  width: 52px;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  float: left;
+  text-decoration: none;
+}
+.type-6 .container-fluid .admin-panel .admin-content div.list-items .date .month,
+.type-6 .container-fluid .admin-panel .admin-content div.list-items .date .day {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+}
+.type-6 .container-fluid .admin-panel .admin-content div.list-items .date .day {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+}
+.type-6 .container-fluid .admin-panel .admin-content div.list-items .items-info a.title {
+  font-weight: 700;
+  color: #5A738E;
+  text-decoration: none;
+}
+.type-6 .container-fluid .admin-panel .admin-content div.list-items .items-info p {
+  margin-bottom: 0;
+  white-space: pre-line;
+  color: #73879C;
+}

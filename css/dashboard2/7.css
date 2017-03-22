@@ -1,0 +1,13 @@
+.type-7 .container-fluid footer {
+  padding: 10px 10px;
+  text-align: right;
+  display: block;
+  color: #5A738E;
+}
+.type-7 .container-fluid footer a {
+  text-decoration: none;
+  color: #5A738E;
+}
+.type-7 .container-fluid footer a:hover {
+  text-decoration: none;
+}

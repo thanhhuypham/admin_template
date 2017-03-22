@@ -1,0 +1,17 @@
+.type-10 {
+  padding: 10px 20px 0;
+}
+.type-10 .total-chart span,
+.type-10 .total-chart h3 {
+  color: #73879C;
+}
+.type-10 .total-chart h3 {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 3px 0 7px;
+  font-weight: 700;
+}
+.type-10 .total-chart .sparkline11,
+.type-10 .total-chart .sparkline_three {
+  opacity: 1;
+}

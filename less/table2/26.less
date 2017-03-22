@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 21, 2017, 11:40:56 PM
+    Author     : Administrator
+*/
+
+@color: #73879C;
+@color-a: #C5C7CB;
+@background-btnsearch: #ffffff;
+@background-btnsearch-hover: #e6e6e6;
+@color-btnsearch: #93a2b2;
+@font-size-h3: 16px;
+@font-size-a: 13px;
+.type-26 {
+    color: @color;
+    .container-fluid {
+        .admin-panel {
+            width: 100%;
+            padding: 10px 17px;
+            display: inline-block;
+            background: #fff;
+            border: 1px solid #E6E9ED;
+            opacity: 1;
+            transition: all .2s ease;
+            margin-bottom: 10px;
+            position: relative;
+
+            .admin-title {
+                border-bottom: 2px solid #E6E9ED;
+                padding: 1px 5px 6px;
+                h3 {
+                    margin: 5px 0 6px;
+                    float: left;
+                    display: block;
+                    font-size: @font-size-h3;
+                }
+                ul.items {
+                    margin-right: 0;
+                    min-width: 70px;
+                    float: right;
+                    list-style: none;
+                    margin-top: 5px;
+                    li {
+                        float: left;
+                        cursor: pointer;
+                        a {
+                            padding: 5px;
+                            color: @color-a;
+                            font-size: @font-size-a;
+                        }
+                    }
+                    .collapse-link, .close-link {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+        .admin-content {
+            p {
+                margin-top: 10px;
+            }
+
+            #datatable-keytable {
+                opacity: 1;
+            }
+        }
+    }
+
+}

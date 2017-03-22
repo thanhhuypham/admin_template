@@ -1,0 +1,128 @@
+.type-13 .admin-panel {
+  width: 100%;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #FFF;
+  border: 1px solid #E6E9ED;
+  opacity: 1;
+  transition: all .2s ease;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+.type-13 .admin-panel .admin-title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+  margin-bottom: 10px;
+}
+.type-13 .admin-panel .admin-title h2 {
+  margin: 5px 0 6px;
+  float: left;
+  display: block;
+  font-size: 20px;
+  color: #73879C;
+}
+.type-13 .admin-panel .admin-title h2 small {
+  margin-left: 10px;
+  font-size: 13px;
+}
+.type-13 .admin-panel .admin-title ul.items {
+  min-width: 70px;
+  list-style: none;
+  margin-top: 5px;
+  float: right;
+}
+.type-13 .admin-panel .admin-title ul.items .collapse-link,
+.type-13 .admin-panel .admin-title ul.items .close-link {
+  opacity: 1;
+}
+.type-13 .admin-panel .admin-title ul.items > li {
+  float: left;
+  cursor: pointer;
+}
+.type-13 .admin-panel .admin-title ul.items > li > a {
+  padding: 5px;
+  color: #C5C7CB;
+  font-size: 13px;
+}
+.type-13 .admin-panel .admin-content {
+  padding: 0 5px 6px;
+  float: left;
+  margin-top: 5px;
+  width: 100%;
+}
+.type-13 .admin-panel .admin-content h2 {
+  font-size: 20px;
+}
+.type-13 .admin-panel .admin-content h4 {
+  font-size: 13px;
+  color: #73879C;
+}
+.type-13 .admin-panel .admin-content #partly-cloudy-day,
+.type-13 .admin-panel .admin-content #snow,
+.type-13 .admin-panel .admin-content #sleet,
+.type-13 .admin-panel .admin-content #cloudy {
+  display: block;
+}
+.type-13 .admin-panel .admin-content #clear-day {
+  display: block;
+}
+.type-13 .admin-panel .admin-content .info-progress {
+  color: #73879C;
+}
+.type-13 .admin-panel .admin-content .info-progress .bg-green {
+  width: 89%;
+}
+.type-13 .admin-panel .admin-content table th p {
+  color: #73879C;
+}
+.type-13 .admin-panel .admin-content ul.quick-list {
+  width: 45%;
+  padding-left: 0;
+  float: left;
+  list-style: none;
+  padding: 0px;
+}
+.type-13 .admin-panel .admin-content ul.quick-list li {
+  padding-left: 10px;
+  list-style: none;
+  margin: 0;
+  padding-bottom: 6px;
+  padding-top: 4px;
+}
+.type-13 .admin-panel .admin-content ul.quick-list li i {
+  padding-right: 10px;
+  color: #73879C;
+}
+.type-13 .admin-panel .admin-content ul.quick-list a {
+  color: #5A738E;
+  text-decoration: none;
+}
+.type-13 .admin-panel .admin-content ul.quick-list a:hover {
+  color: #23527c;
+}
+.type-13 .admin-panel .admin-content .sidebar-widget {
+  background: #FFF;
+  border: 1px solid #abd9ea;
+  border-radius: 5px;
+  text-align: center;
+  float: right;
+  padding: 2px;
+}
+.type-13 .admin-panel .admin-content .sidebar-widget h4 {
+  font-size: 13px;
+  font-weight: 500;
+}
+.type-13 .admin-panel .admin-content .sidebar-widget .goal-wrapper {
+  display: block;
+}
+.type-13 .admin-panel .admin-content .sidebar-widget .goal-wrapper .gauge-value,
+.type-13 .admin-panel .admin-content .sidebar-widget .goal-wrapper .goal-value,
+.type-13 .admin-panel .admin-content .sidebar-widget .goal-wrapper #gauge-text,
+.type-13 .admin-panel .admin-content .sidebar-widget .goal-wrapper #goal-text {
+  opacity: 1;
+}
+.type-13 .admin-panel .admin-content .sidebar-widget #chart_gauge_01 {
+  width: 160px;
+  height: 100px;
+}

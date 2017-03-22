@@ -1,0 +1,151 @@
+@color: #ffffff;
+@color-menu: #ededed;
+@font-size: 13px;
+@background-body: #2A3F54;
+body {
+    background-color: @background-body;
+}
+.type-20 {
+    .container-fluid {
+        .sidebar-left {
+            .logo {
+                text-align: center;
+                line-height: 60px;
+                a {
+                    text-decoration: none;
+                    color: @color;
+                    .fa-paw {
+                        border: 1px solid #e0e0e0;
+                        border-radius: 50%;
+                        padding: 5px;
+                    }
+                    .fa-paw, span {
+                        font-size: 20px;
+                    }
+                }
+            }
+            .img-user {
+                padding-left: 12px;
+                margin: 10px 0;
+                img {
+                    width: 30%;
+                    border: 4px solid #fff;
+                    border-radius: 50%;
+                    float: left;
+
+                }
+                .welcome-name {
+                    color: @color;
+                    float: left;
+                    font-size: 15px;
+                    text-align: center;
+                    margin-left: 25px;
+                    padding-top: 10px;
+                    span {
+                        color: #BAB8B8;
+                    }
+                }
+            }
+            .menu-vertical {
+                padding-left: 11px;
+                h4 {
+                    text-transform: uppercase;
+                    line-height: 50px;
+                    font-size: @font-size;
+                    color: @color;
+                    text-shadow: 1px 1px #000;
+                }
+                ul.item-menu {
+                    list-style: none;
+                    margin: 0;
+                    padding: 0;
+                    margin-right: -5px;
+                    li {
+                        padding-bottom: 5px;
+                        .parent-menu {
+                            cursor: pointer;
+                            background-color: rgba(255,255,255,.06);
+                            padding: 10px;
+                            a {
+                                text-decoration: none;
+                                font-size: 13px;
+                                .fa-home, .fa-edit, .fa-table, .fa-desktop, .fa-bar-chart-o, .fa-clone, .fa-bug, .fa-windows, .fa-sitemap, .fa-laptop {
+                                    width: 30px;
+                                    font-size: 18px;
+
+                                }
+                                color: @color-menu;
+                                font-weight: normal;
+                                .fa-chevron-down {
+                                    float: right;
+                                    font-size: 10px;
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+
+                        ul.child-menu {
+                            list-style: none;
+                            margin: 0;
+                            padding: 0;
+                            li {
+                                cursor: pointer;
+                                padding: 10px;
+                                border-right: 5px solid #1ABB9C;
+                                a {
+                                    text-decoration: none;
+                                    padding-left: 30px;
+                                    color: @color-menu;
+                                    font-size: @font-size;
+
+                                }
+                            }
+                            li.current-page {
+                                background-color: rgba(255,255,255,.06);
+                            }
+                            li:hover {
+                                background-color: rgba(255,255,255,.06);
+                            }
+                        }
+                        ul#child-home, #child-elements, #child-tables, #child-additional, #child-data, #child-layout, #child-forms {
+                            opacity: 1;
+                            z-index: 10;
+                        }
+                        .comming-soon {
+                            font-size: 8px;
+                            background-color: #5cb85c;
+                            margin-top: 4px;
+                        }
+                    }
+                }
+                .sidebar-footer {
+                    padding: 5px 0 0;
+                    position: fixed;
+                    bottom: 0;
+                    background-color: #2A3F54;
+                    width: 235px;
+                    a {
+                        padding: 7px 0 3px;
+                        text-align: center;
+                        width: 20.5%;
+                        font-size: @font-size;
+                        display: block;
+                        float: left;
+                        background: #172D44;
+                        cursor: pointer;
+                        i {
+                            color: #5A738E;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 980px) {
+    .img-user, .sidebar-footer {
+        display: none;
+    }
+}
