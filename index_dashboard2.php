@@ -40,7 +40,6 @@
         <div class="type-f-12">
             <!-- Sidebar -->
             <div class="container-fluid">
-                <div class="row">
                     <div class="col-md-2 col-sm-12 col-xs-12">
                         <div class="sidebar-left"> 
                             <div class="logo">
@@ -572,15 +571,15 @@
                                                 </div>
                                                 <div class="col-md-5 col-sm-12 col-xs-12">
                                                     <div class="row">
-                                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                                        <div class="col-md-4 col-sm-4 col-xs-4">
                                                             <canvas class="canvasDoughnut" height="110" width="110"></canvas>
                                                             <h4 class="rates">Bounce Rates</h4>
                                                         </div>
-                                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                                        <div class="col-md-4 col-sm-4 col-xs-4">
                                                             <canvas class="canvasDoughnut" height="110" width="110"></canvas>
                                                             <h4 class="rates">New Traffic</h4>
                                                         </div>
-                                                        <div class="col-md-4 col-sm-4 col-xs-12">
+                                                        <div class="col-md-4 col-sm-4 col-xs-4">
                                                             <canvas class="canvasDoughnut" height="110" width="110"></canvas>
                                                             <h4 class="rates">Device Share</h4>
                                                         </div>
@@ -910,7 +909,6 @@
                             <a href="#"> Colorlib</a>
                         </footer>
                     </div>  
-                </div>
 
 
                 <div id="back-to-top"><i class="fa fa-chevron-up"></i>

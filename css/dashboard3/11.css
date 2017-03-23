@@ -1,4 +1,4 @@
-.type-11 .admin-panel {
+.type-11 .container-fluid .admin-panel {
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
@@ -10,53 +10,53 @@
   position: relative;
   margin-top: 10px;
 }
-.type-11 .admin-panel .admin-title {
+.type-11 .container-fluid .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
 }
-.type-11 .admin-panel .admin-title span,
-.type-11 .admin-panel .admin-title .fa,
-.type-11 .admin-panel .admin-title .glyphicon {
+.type-11 .container-fluid .admin-panel .admin-title span,
+.type-11 .container-fluid .admin-panel .admin-title .fa,
+.type-11 .container-fluid .admin-panel .admin-title .glyphicon {
   color: #BDBDBD;
 }
-.type-11 .admin-panel .admin-title h2 {
+.type-11 .container-fluid .admin-panel .admin-title h2 {
   margin: 5px 0 6px;
   float: left;
   display: block;
   font-size: 20px;
   color: #73879C;
 }
-.type-11 .admin-panel .admin-title h2 small {
+.type-11 .container-fluid .admin-panel .admin-title h2 small {
   margin-left: 10px;
 }
-.type-11 .admin-panel .admin-title .filter-time {
+.type-11 .container-fluid .admin-panel .admin-title .filter-time {
   font-size: 13px;
 }
-.type-11 .admin-panel .admin-title .filter-time #reportrange {
+.type-11 .container-fluid .admin-panel .admin-title .filter-time #reportrange {
   background: #FFF;
   cursor: pointer;
   padding: 5px 10px;
   border: 1px solid #ccc;
   float: right;
 }
-.type-11 .admin-panel .admin-content {
+.type-11 .container-fluid .admin-panel .admin-content {
   padding: 0 5px 6px;
   float: left;
   clear: both;
   margin-top: 5px;
 }
-.type-11 .admin-panel .admin-content .demo-placeholder {
+.type-11 .container-fluid .admin-panel .admin-content .demo-placeholder {
   height: 280px;
 }
-.type-11 .admin-panel .admin-content .admin-title {
+.type-11 .container-fluid .admin-panel .admin-content .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
 }
-.type-11 .admin-panel .admin-content .admin-title h2 {
+.type-11 .container-fluid .admin-panel .admin-content .admin-title h2 {
   margin: 5px 0 6px;
   float: left;
   display: block;
 }
-.type-11 .admin-panel .admin-content #chart_plot_03 {
+.type-11 .container-fluid .admin-panel .admin-content #chart_plot_03 {
   opacity: 1;
 }

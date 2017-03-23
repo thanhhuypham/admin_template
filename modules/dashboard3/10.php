@@ -29,34 +29,32 @@
     <body>
         <div class="type-10">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="total-chart">
-                            <span>Total Sessions</span>
-                            <h3>231,809</h3>
-                            <span class="sparkline11" style="height: 60px;"></span>
-                        </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="total-chart">
+                        <span>Total Sessions</span>
+                        <h3>231,809</h3>
+                        <span class="sparkline11" style="height: 60px;"></span>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="total-chart">
-                            <span>Total Sessions</span>
-                            <h3>231,809</h3>
-                            <span class="sparkline11" style="height: 60px;"></span>
-                        </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="total-chart">
+                        <span>Total Sessions</span>
+                        <h3>231,809</h3>
+                        <span class="sparkline11" style="height: 60px;"></span>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="total-chart">
-                            <span>Total Sessions</span>
-                            <h3>231,809</h3>
-                            <span class="sparkline_three" style="height: 60px;"></span>
-                        </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="total-chart">
+                        <span>Total Sessions</span>
+                        <h3>231,809</h3>
+                        <span class="sparkline_three" style="height: 60px;"></span>
                     </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                        <div class="total-chart">
-                            <span>Total Sessions</span>
-                            <h3>231,809</h3>
-                            <span class="sparkline11" style="height: 60px;"></span>
-                        </div>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-6">
+                    <div class="total-chart">
+                        <span>Total Sessions</span>
+                        <h3>231,809</h3>
+                        <span class="sparkline11" style="height: 60px;"></span>
                     </div>
                 </div>
             </div>

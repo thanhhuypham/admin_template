@@ -14,7 +14,6 @@
 .type-f-12 .container-fluid .sidebar-left .logo a {
   text-decoration: none;
   color: #fff;
-  margin-left: 9px;
 }
 .type-f-12 .container-fluid .sidebar-left .logo a .fa-paw {
   border: 1px solid #e0e0e0;
@@ -23,10 +22,9 @@
 }
 .type-f-12 .container-fluid .sidebar-left .logo a .fa-paw,
 .type-f-12 .container-fluid .sidebar-left .logo a span {
-  font-size: 22px;
+  font-size: 21px;
 }
 .type-f-12 .container-fluid .sidebar-left .img-user {
-  padding-left: 12px;
   margin: 10px 0;
 }
 .type-f-12 .container-fluid .sidebar-left .img-user img {
@@ -45,9 +43,6 @@
 }
 .type-f-12 .container-fluid .sidebar-left .img-user .welcome-name span {
   color: #BAB8B8;
-}
-.type-f-12 .container-fluid .sidebar-left .menu-vertical {
-  padding-left: 11px;
 }
 .type-f-12 .container-fluid .sidebar-left .menu-vertical h4 {
   text-transform: uppercase;
@@ -135,7 +130,7 @@
   padding: 5px 0 0;
   position: fixed;
   bottom: 0;
-  width: 236px;
+  width: 244px;
 }
 .type-f-12 .container-fluid .sidebar-left .menu-vertical .sidebar-footer a {
   padding: 7px 0 3px;
@@ -350,7 +345,7 @@
   margin: 5px 0 6px;
   float: left;
   display: block;
-  font-size: 20px;
+  font-size: 19px;
   color: #73879C;
 }
 .type-f-12 .container-fluid .admin-panel.admin2 .admin-title h2 small {
@@ -489,7 +484,6 @@
   border-radius: 5px;
   text-align: center;
   float: right;
-  padding: 2px;
 }
 .type-f-12 .container-fluid .admin-panel.admin2 .admin-content .sidebar-widget h4 {
   font-size: 13px;
@@ -538,7 +532,7 @@
   margin: 5px 0 6px;
   float: left;
   display: block;
-  font-size: 20px;
+  font-size: 19px;
   color: #73879C;
 }
 .type-f-12 .container-fluid .admin-panel.admin3 .admin-title h2 small {
@@ -626,7 +620,6 @@
   border-radius: 5px;
   text-align: center;
   float: right;
-  padding: 2px;
 }
 .type-f-12 .container-fluid .admin-panel.admin3 .admin-content .sidebar-widget h4 {
   font-size: 13px;
@@ -697,9 +690,4 @@
 }
 .type-f-12.toggled #chart_plot_03 {
   width: 1300px;
-}
-.type-f-12.toggled .admin1,
-.type-f-12.toggled .admin2,
-.type-f-12.toggled .admin3 {
-  margin-left: 5px;
 }

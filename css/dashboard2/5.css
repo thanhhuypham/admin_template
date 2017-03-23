@@ -22,6 +22,7 @@
 }
 .type-5 .container-fluid .admin-panel .admin-title h2 small {
   margin-left: 10px;
+  font-size: 15px;
 }
 .type-5 .container-fluid .admin-panel .admin-title ul.sales {
   min-width: 70px;

@@ -34,26 +34,24 @@
     <body>
         <div class="type-11">
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12 col-xs-12">
-                        <div class="admin-panel">
-                            <div class="admin-title">
-                                <h2>
-                                    Network Activities 
-                                    <small>Graph title sub-title</small>
-                                </h2>
-                                <div class="filter-time">
-                                    <div id="reportrange">
-                                        <i class="glyphicon glyphicon-calendar"></i>
-                                        <span>January 31, 2017 - March 1, 2017</span>
-                                        <i class="fa fa-caret-down"></i>
-                                    </div>
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="admin-panel">
+                        <div class="admin-title">
+                            <h2>
+                                Network Activities 
+                                <small>Graph title sub-title</small>
+                            </h2>
+                            <div class="filter-time">
+                                <div id="reportrange">
+                                    <i class="glyphicon glyphicon-calendar"></i>
+                                    <span>January 31, 2017 - March 1, 2017</span>
+                                    <i class="fa fa-caret-down"></i>
                                 </div>
-                                <div class="clearfix"></div>
                             </div>
-                            <div class="admin-content">
-                                <div id="chart_plot_03" class="demo-placeholder" style="width: 1325px;"></div>
-                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                        <div class="admin-content">
+                            <div id="chart_plot_03" class="demo-placeholder" style="width: 1300px;"></div>
                         </div>
                     </div>
                 </div>

@@ -1,16 +1,13 @@
-.type-14 footer {
+.type-14 .container-fluid footer {
   padding: 10px 10px;
   text-align: right;
   display: block;
   color: #5A738E;
 }
-.type-14 footer a {
+.type-14 .container-fluid footer a {
   text-decoration: none;
   color: #5A738E;
 }
-.type-14 footer a:hover {
-  text-decoration: none;
-}
-.a {
+.type-14 .container-fluid footer a:hover {
   text-decoration: none;
 }

@@ -24,6 +24,7 @@
 }
 .type-6 .container-fluid .admin-panel .admin-title h2 small {
   margin-left: 10px;
+  font-size: 13px;
 }
 .type-6 .container-fluid .admin-panel .admin-title ul.items {
   min-width: 70px;
