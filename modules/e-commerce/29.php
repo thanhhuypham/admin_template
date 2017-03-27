@@ -20,7 +20,7 @@
         $less->compileFile('../../less/e-commerce/29.less', '../../css/e-commerce/29.css');
         ?>
         <link rel="stylesheet" href="../../css/e-commerce/29.css">
-        <script src="../../js/e-commerce/sibarmenu-left.js" type="text/javascript"></script>
+        <script src="../../js/e-commerce/29/sibarmenu-left.js" type="text/javascript"></script>
     </head>
 
     <body>

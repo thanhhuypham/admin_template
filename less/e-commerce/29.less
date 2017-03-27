@@ -1,6 +1,6 @@
 @color: #ffffff;
 @color-menu: #ededed;
-@font-size: 13px;
+@font-size: 12px;
 @background-body: #2A3F54;
 body {
     background-color: @background-body;
@@ -20,7 +20,7 @@ body {
                         padding: 5px;
                     }
                     .fa-paw, span {
-                        font-size: 20px;
+                        font-size: 16px;
                     }
                 }
             }
@@ -68,10 +68,10 @@ body {
                             padding: 10px;
                             a {
                                 text-decoration: none;
-                                font-size: 13px;
+                                font-size: @font-size;
                                 .fa-home, .fa-edit, .fa-table, .fa-desktop, .fa-bar-chart-o, .fa-clone, .fa-bug, .fa-windows, .fa-sitemap, .fa-laptop {
                                     width: 30px;
-                                    font-size: 18px;
+                                    font-size: 16px;
 
                                 }
                                 color: @color-menu;
@@ -141,7 +141,6 @@ body {
             }
         }
     }
-
 }
 
 @media (max-width: 980px) {
