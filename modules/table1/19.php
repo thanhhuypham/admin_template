@@ -23,7 +23,7 @@
 
     <body>
         <div class="type-19">
-            <div class="container-fluid">
+            <div class="container">
                 <footer>
                     Gentelella - Bootstrap Admin Template by
                     <a href="#"> Colorlib</a>

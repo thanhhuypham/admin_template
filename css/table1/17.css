@@ -1,38 +1,35 @@
 .type-17 {
   color: #73879C;
 }
-.type-17 .container-fluid .content {
-  margin: 0 10px;
-}
-.type-17 .container-fluid .content .content-left h3 {
+.type-17 .content .content-left h3 {
   margin: 9px 0;
 }
-.type-17 .container-fluid .content .content-right {
+.type-17 .content .content-right {
   margin: -33px 0;
   float: right;
   padding: 0;
 }
-.type-17 .container-fluid .content .content-right .input-search {
+.type-17 .content .content-right .input-search {
   margin-bottom: 10px;
   position: relative;
 }
-.type-17 .container-fluid .content .content-right .input-search .form-search {
+.type-17 .content .content-right .input-search .form-search {
   box-shadow: inset 0 1px 0 rgba(0,0,0,0.075);
   border-radius: 25px 0 0 25px;
   padding-left: 20px;
   border: 1px solid rgba(221,226,232,0.49);
 }
-.type-17 .container-fluid .content .content-right .input-search .input-btn-search .btn-search {
+.type-17 .content .content-right .input-search .input-btn-search .btn-search {
   border-radius: 0 25px 25px 0;
   border: 1px solid rgba(221,226,232,0.49);
   border-left: 0;
   background-color: #fff;
   color: #93A2B2;
 }
-.type-17 .container-fluid .content .content-right .input-search .input-btn-search .btn-search:hover {
+.type-17 .content .content-right .input-search .input-btn-search .btn-search:hover {
   background-color: #93A2B2;
 }
-.type-17 .container-fluid .admin-panel {
+.type-17 .admin-panel {
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
@@ -43,36 +40,36 @@
   margin-bottom: 10px;
   position: relative;
 }
-.type-17 .container-fluid .admin-panel .admin-title {
+.type-17 .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
 }
-.type-17 .container-fluid .admin-panel .admin-title h3 {
+.type-17 .admin-panel .admin-title h3 {
   margin: 5px 0 6px;
   float: left;
   display: block;
   font-size: 18px;
 }
-.type-17 .container-fluid .admin-panel .admin-title ul.items {
+.type-17 .admin-panel .admin-title ul.items {
   margin-right: 0;
   min-width: 70px;
   float: right;
   list-style: none;
   margin-top: 5px;
 }
-.type-17 .container-fluid .admin-panel .admin-title ul.items li {
+.type-17 .admin-panel .admin-title ul.items li {
   float: left;
   cursor: pointer;
 }
-.type-17 .container-fluid .admin-panel .admin-title ul.items li a {
+.type-17 .admin-panel .admin-title ul.items li a {
   padding: 5px;
   color: #C5C7CB;
   font-size: 13px;
 }
-.type-17 .container-fluid .admin-panel .admin-title ul.items .collapse-link,
-.type-17 .container-fluid .admin-panel .admin-title ul.items .close-link {
+.type-17 .admin-panel .admin-title ul.items .collapse-link,
+.type-17 .admin-panel .admin-title ul.items .close-link {
   opacity: 1;
 }
-.type-17 .container-fluid .admin-panel .admin-content {
+.type-17 .admin-panel .admin-content {
   opacity: 1;
 }

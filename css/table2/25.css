@@ -1,7 +1,7 @@
 .type-25 {
   color: #73879C;
 }
-.type-25 .container-fluid .admin-panel {
+.type-25 .admin-panel {
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
@@ -12,39 +12,39 @@
   margin-bottom: 10px;
   position: relative;
 }
-.type-25 .container-fluid .admin-panel .admin-title {
+.type-25 .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
 }
-.type-25 .container-fluid .admin-panel .admin-title h3 {
+.type-25 .admin-panel .admin-title h3 {
   margin: 5px 0 6px;
   float: left;
   display: block;
   font-size: 16px;
 }
-.type-25 .container-fluid .admin-panel .admin-title ul.items {
+.type-25 .admin-panel .admin-title ul.items {
   margin-right: 0;
   min-width: 70px;
   float: right;
   list-style: none;
   margin-top: 5px;
 }
-.type-25 .container-fluid .admin-panel .admin-title ul.items li {
+.type-25 .admin-panel .admin-title ul.items li {
   float: left;
   cursor: pointer;
 }
-.type-25 .container-fluid .admin-panel .admin-title ul.items li a {
+.type-25 .admin-panel .admin-title ul.items li a {
   padding: 5px;
   color: #C5C7CB;
   font-size: 13px;
 }
-.type-25 .container-fluid .admin-panel .admin-title ul.items .collapse-link,
-.type-25 .container-fluid .admin-panel .admin-title ul.items .close-link {
+.type-25 .admin-panel .admin-title ul.items .collapse-link,
+.type-25 .admin-panel .admin-title ul.items .close-link {
   opacity: 1;
 }
-.type-25 .container-fluid .admin-content p {
+.type-25 .admin-content p {
   margin-top: 10px;
 }
-.type-25 .container-fluid .admin-content #datatable-fixed-header {
+.type-25 .admin-content #datatable-fixed-header {
   opacity: 1;
 }

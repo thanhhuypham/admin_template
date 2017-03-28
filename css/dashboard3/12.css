@@ -1,4 +1,4 @@
-.type-12 .container-fluid .admin-panel {
+.type-12 .admin-panel {
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
@@ -10,149 +10,149 @@
   position: relative;
   margin-top: 20px;
 }
-.type-12 .container-fluid .admin-panel .admin-title {
+.type-12 .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
   margin-bottom: 10px;
 }
-.type-12 .container-fluid .admin-panel .admin-title h2 {
+.type-12 .admin-panel .admin-title h2 {
   margin: 5px 0 6px;
   float: left;
   display: block;
   font-size: 20px;
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-title h2 small {
+.type-12 .admin-panel .admin-title h2 small {
   margin-left: 10px;
   font-size: 13px;
 }
-.type-12 .container-fluid .admin-panel .admin-title ul.items {
+.type-12 .admin-panel .admin-title ul.items {
   min-width: 70px;
   list-style: none;
   margin-top: 5px;
   float: right;
 }
-.type-12 .container-fluid .admin-panel .admin-title ul.items .collapse-link,
-.type-12 .container-fluid .admin-panel .admin-title ul.items .close-link {
+.type-12 .admin-panel .admin-title ul.items .collapse-link,
+.type-12 .admin-panel .admin-title ul.items .close-link {
   opacity: 1;
 }
-.type-12 .container-fluid .admin-panel .admin-title ul.items > li {
+.type-12 .admin-panel .admin-title ul.items > li {
   float: left;
   cursor: pointer;
 }
-.type-12 .container-fluid .admin-panel .admin-title ul.items > li > a {
+.type-12 .admin-panel .admin-title ul.items > li > a {
   padding: 5px;
   color: #C5C7CB;
   font-size: 14px;
 }
-.type-12 .container-fluid .admin-panel .admin-content {
+.type-12 .admin-panel .admin-content {
   padding: 0 5px 6px;
   float: left;
   margin-top: 5px;
   width: 100%;
 }
-.type-12 .container-fluid .admin-panel .admin-content #canvasDoughnut {
+.type-12 .admin-panel .admin-content #canvasDoughnut {
   margin: 15px 10px 10px 0;
 }
-.type-12 .container-fluid .admin-panel .admin-content h4 {
+.type-12 .admin-panel .admin-content h4 {
   font-size: 16px;
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary {
+.type-12 .admin-panel .admin-content .widget_summary {
   width: 100%;
   display: -ms-inline-flexbox;
   display: inline-flex;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_left {
+.type-12 .admin-panel .admin-content .widget_summary .w_left {
   float: left;
   text-align: left;
   width: 25%;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_left span {
+.type-12 .admin-panel .admin-content .widget_summary .w_left span {
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_center {
+.type-12 .admin-panel .admin-content .widget_summary .w_center {
   width: 55%;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_center .progress {
+.type-12 .admin-panel .admin-content .widget_summary .w_center .progress {
   border-radius: 0px;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_center .bg-green {
+.type-12 .admin-panel .admin-content .widget_summary .w_center .bg-green {
   background: #1ABB9C !important;
   border: 1px solid #1ABB9C !important;
   color: #fff;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_center span {
+.type-12 .admin-panel .admin-content .widget_summary .w_center span {
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_right {
+.type-12 .admin-panel .admin-content .widget_summary .w_right {
   width: 20%;
   float: right;
   text-align: right;
 }
-.type-12 .container-fluid .admin-panel .admin-content .widget_summary .w_right span {
+.type-12 .admin-panel .admin-content .widget_summary .w_right span {
   font-size: 13px;
   color: #73879C;
   font-weight: bold;
 }
-.type-12 .container-fluid .admin-panel .admin-content table th p {
+.type-12 .admin-panel .admin-content table th p {
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content table.tile_info td {
+.type-12 .admin-panel .admin-content table.tile_info td {
   text-align: left;
   padding: 1px;
   font-size: 13px;
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content table.tile_info td i {
+.type-12 .admin-panel .admin-content table.tile_info td i {
   margin-right: 2px;
   float: left;
   line-height: 23px;
 }
-.type-12 .container-fluid .admin-panel .admin-content table.tile_info td:first-child {
+.type-12 .admin-panel .admin-content table.tile_info td:first-child {
   width: 83%;
 }
-.type-12 .container-fluid .admin-panel .admin-content .fa.blue {
+.type-12 .admin-panel .admin-content .fa.blue {
   color: #3498DB;
 }
-.type-12 .container-fluid .admin-panel .admin-content .fa.green {
+.type-12 .admin-panel .admin-content .fa.green {
   color: #1ABB9C;
 }
-.type-12 .container-fluid .admin-panel .admin-content .fa.purple {
+.type-12 .admin-panel .admin-content .fa.purple {
   color: #9B59B6;
 }
-.type-12 .container-fluid .admin-panel .admin-content .fa.aero {
+.type-12 .admin-panel .admin-content .fa.aero {
   color: #9CC2CB l;
 }
-.type-12 .container-fluid .admin-panel .admin-content .fa.red {
+.type-12 .admin-panel .admin-content .fa.red {
   color: #E74C3C;
 }
-.type-12 .container-fluid .admin-panel .admin-content ul.quick-list {
+.type-12 .admin-panel .admin-content ul.quick-list {
   width: 45%;
   padding-left: 0;
   float: left;
   list-style: none;
   padding: 0px;
 }
-.type-12 .container-fluid .admin-panel .admin-content ul.quick-list li {
+.type-12 .admin-panel .admin-content ul.quick-list li {
   padding-left: 10px;
   list-style: none;
   margin: 0;
   padding-bottom: 6px;
   padding-top: 4px;
 }
-.type-12 .container-fluid .admin-panel .admin-content ul.quick-list li i {
+.type-12 .admin-panel .admin-content ul.quick-list li i {
   padding-right: 10px;
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content ul.quick-list a {
+.type-12 .admin-panel .admin-content ul.quick-list a {
   color: #73879C;
   text-decoration: none;
 }
-.type-12 .container-fluid .admin-panel .admin-content ul.quick-list a:hover {
+.type-12 .admin-panel .admin-content ul.quick-list a:hover {
   color: #73879C;
 }
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget {
+.type-12 .admin-panel .admin-content .sidebar-widget {
   background: #FFF;
   border: 1px solid #abd9ea;
   border-radius: 5px;
@@ -160,30 +160,30 @@
   float: right;
   padding: 2px;
 }
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget h4 {
+.type-12 .admin-panel .admin-content .sidebar-widget h4 {
   font-size: 13px;
   font-weight: 500;
 }
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget .goal-wrapper {
+.type-12 .admin-panel .admin-content .sidebar-widget .goal-wrapper {
   display: block;
 }
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget .goal-wrapper .gauge-value,
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget .goal-wrapper .goal-value,
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget .goal-wrapper #gauge-text,
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget .goal-wrapper #goal-text {
+.type-12 .admin-panel .admin-content .sidebar-widget .goal-wrapper .gauge-value,
+.type-12 .admin-panel .admin-content .sidebar-widget .goal-wrapper .goal-value,
+.type-12 .admin-panel .admin-content .sidebar-widget .goal-wrapper #gauge-text,
+.type-12 .admin-panel .admin-content .sidebar-widget .goal-wrapper #goal-text {
   opacity: 1;
 }
-.type-12 .container-fluid .admin-panel .admin-content .sidebar-widget #chart_gauge_01 {
+.type-12 .admin-panel .admin-content .sidebar-widget #chart_gauge_01 {
   width: 160px;
   height: 100px;
 }
-.type-12 .container-fluid .admin-panel .admin-content p {
+.type-12 .admin-panel .admin-content p {
   padding: 0px;
 }
-.type-12 .container-fluid .admin-panel .admin-content ul {
+.type-12 .admin-panel .admin-content ul {
   padding: 0px;
 }
-.type-12 .container-fluid .admin-panel .admin-content p {
+.type-12 .admin-panel .admin-content p {
   margin-top: 10px;
   margin-left: 5px;
 }

@@ -18,211 +18,209 @@ and open the template in the editor.
 @color-red: #E74C3C;
 
 .type-12 {
-    .container-fluid {
-        .admin-panel {
-            width: 100%;
-            padding: 10px 17px;
-            display: inline-block;
-            background: @background-color-admin;
-            border: 1px solid #E6E9ED;
-            opacity: 1;
-            transition: all .2s ease;
+    .admin-panel {
+        width: 100%;
+        padding: 10px 17px;
+        display: inline-block;
+        background: @background-color-admin;
+        border: 1px solid #E6E9ED;
+        opacity: 1;
+        transition: all .2s ease;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 20px;
+        .admin-title {
+            border-bottom: 2px solid #E6E9ED;
+            padding: 1px 5px 6px;
             margin-bottom: 10px;
-            position: relative;
-            margin-top: 20px;
-            .admin-title {
-                border-bottom: 2px solid #E6E9ED;
-                padding: 1px 5px 6px;
-                margin-bottom: 10px;
 
-                h2 {
-                    margin: 5px 0 6px;
+            h2 {
+                margin: 5px 0 6px;
+                float: left;
+                display: block;
+                font-size: @font-size-title;
+                color: @color;
+
+                small {
+                    margin-left: 10px;
+                    font-size: @font-size-body;
+                }
+            }
+
+            ul.items {
+                min-width: 70px;
+                list-style: none;
+                margin-top: 5px;
+                float: right;
+                .collapse-link, .close-link {
+                    opacity: 1;
+                }
+            }
+            ul.items > li {
+                float: left;
+                cursor: pointer;
+            }
+            ul.items > li > a {
+                padding: 5px;
+                color: #C5C7CB;
+                font-size: 14px;
+            }
+        }
+        .admin-content {
+            padding: 0 5px 6px;
+            float: left;
+            margin-top: 5px;
+            width: 100%;
+
+            #canvasDoughnut {
+                margin: 15px 10px 10px 0;
+            }
+            h4 { 
+                font-size: 16px;
+                color: @color;
+            }
+
+            .widget_summary {
+                width: 100%;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+                .w_left {
                     float: left;
-                    display: block;
-                    font-size: @font-size-title;
-                    color: @color;
-
-                    small {
-                        margin-left: 10px;
-                        font-size: @font-size-body;
+                    text-align: left;
+                    width: 25%;
+                    span {
+                        color: @color;
                     }
                 }
-
-                ul.items {
-                    min-width: 70px;
-                    list-style: none;
-                    margin-top: 5px;
+                .w_center {
+                    width: 55%;
+                    .progress{
+                        border-radius: 0px;
+                    }
+                    .bg-green {
+                        background: #1ABB9C!important;
+                        border: 1px solid #1ABB9C!important;
+                        color: #fff;
+                    }
+                    span {
+                        color: @color;
+                    }
+                }
+                .w_right {
+                    width: 20%;
                     float: right;
-                    .collapse-link, .close-link {
+                    text-align: right;
+                    span{
+                        font-size: @font-size-body;
+                        color: @color;
+                        font-weight: bold;
+                    }
+                }
+            }                
+            table {
+                th {
+                    p {
+                        color: @color;
+
+                    }
+                }
+            }
+            table.tile_info {
+                td {
+                    text-align: left;
+                    padding: 1px;
+                    font-size: @font-size-body;
+                    color: @color;
+                    i {
+                        margin-right: 2px;
+                        float: left;
+                        line-height: 23px;
+                    }
+                }
+                td:first-child {
+                    width: 83%;
+                }
+
+            }
+            .fa.blue {
+                color: @color-blue;
+            }
+            .fa.green {
+                color: @color-green;
+            }
+            .fa.purple {
+                color: @color-purple;
+            }
+            .fa.aero {
+                color: @color-aero;
+            }
+            .fa.red {
+                color: @color-red;
+            }
+            ul.quick-list {
+                width: 45%;
+                padding-left: 0;
+                float: left;
+                list-style: none;
+                padding: 0px;
+                li {
+                    padding-left: 10px;
+                    list-style: none;
+                    margin: 0;
+                    padding-bottom: 6px;
+                    padding-top: 4px;
+                }
+                li i {
+                    padding-right: 10px;
+                    color: @color;
+                }
+                a{
+                    color: @color;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: @color;
+
+                }
+            }
+            .sidebar-widget {
+                background: @background-color-admin;
+                border: 1px solid #abd9ea;
+                border-radius: 5px;
+                text-align: center;
+                float: right;
+                padding: 2px;
+                h4
+                {
+                    font-size: @font-size-body;
+                    font-weight: 500;
+                }
+                .goal-wrapper {
+                    display: block;
+                    .gauge-value, .goal-value, #gauge-text, #goal-text {
                         opacity: 1;
                     }
                 }
-                ul.items > li {
-                    float: left;
-                    cursor: pointer;
-                }
-                ul.items > li > a {
-                    padding: 5px;
-                    color: #C5C7CB;
-                    font-size: 14px;
-                }
-            }
-            .admin-content {
-                padding: 0 5px 6px;
-                float: left;
-                margin-top: 5px;
-                width: 100%;
-
-                #canvasDoughnut {
-                    margin: 15px 10px 10px 0;
-                }
-                h4 { 
-                    font-size: 16px;
-                    color: @color;
-                }
-
-                .widget_summary {
-                    width: 100%;
-                    display: -ms-inline-flexbox;
-                    display: inline-flex;
-                    .w_left {
-                        float: left;
-                        text-align: left;
-                        width: 25%;
-                        span {
-                            color: @color;
-                        }
-                    }
-                    .w_center {
-                        width: 55%;
-                        .progress{
-                            border-radius: 0px;
-                        }
-                        .bg-green {
-                            background: #1ABB9C!important;
-                            border: 1px solid #1ABB9C!important;
-                            color: #fff;
-                        }
-                        span {
-                            color: @color;
-                        }
-                    }
-                    .w_right {
-                        width: 20%;
-                        float: right;
-                        text-align: right;
-                        span{
-                            font-size: @font-size-body;
-                            color: @color;
-                            font-weight: bold;
-                        }
-                    }
-                }                
-                table {
-                    th {
-                        p {
-                            color: @color;
-
-                        }
-                    }
-                }
-                table.tile_info {
-                    td {
-                        text-align: left;
-                        padding: 1px;
-                        font-size: @font-size-body;
-                        color: @color;
-                        i {
-                            margin-right: 2px;
-                            float: left;
-                            line-height: 23px;
-                        }
-                    }
-                    td:first-child {
-                        width: 83%;
-                    }
-
-                }
-                .fa.blue {
-                    color: @color-blue;
-                }
-                .fa.green {
-                    color: @color-green;
-                }
-                .fa.purple {
-                    color: @color-purple;
-                }
-                .fa.aero {
-                    color: @color-aero;
-                }
-                .fa.red {
-                    color: @color-red;
-                }
-                ul.quick-list {
-                    width: 45%;
-                    padding-left: 0;
-                    float: left;
-                    list-style: none;
-                    padding: 0px;
-                    li {
-                        padding-left: 10px;
-                        list-style: none;
-                        margin: 0;
-                        padding-bottom: 6px;
-                        padding-top: 4px;
-                    }
-                    li i {
-                        padding-right: 10px;
-                        color: @color;
-                    }
-                    a{
-                        color: @color;
-                        text-decoration: none;
-                    }
-                    a:hover {
-                        color: @color;
-
-                    }
-                }
-                .sidebar-widget {
-                    background: @background-color-admin;
-                    border: 1px solid #abd9ea;
-                    border-radius: 5px;
-                    text-align: center;
-                    float: right;
-                    padding: 2px;
-                    h4
-                    {
-                        font-size: @font-size-body;
-                        font-weight: 500;
-                    }
-                    .goal-wrapper {
-                        display: block;
-                        .gauge-value, .goal-value, #gauge-text, #goal-text {
-                            opacity: 1;
-                        }
-                    }
-                    #chart_gauge_01 {
-                        width: 160px; 
-                        height: 100px;
-                    }
-
-                }
-
-                p{
-                    padding: 0px;
-                }
-
-                ul{
-                    padding: 0px;
-                }
-
-                p{
-                    margin-top: 10px;
-                    margin-left: 5px;
+                #chart_gauge_01 {
+                    width: 160px; 
+                    height: 100px;
                 }
 
             }
+
+            p{
+                padding: 0px;
+            }
+
+            ul{
+                padding: 0px;
+            }
+
+            p{
+                margin-top: 10px;
+                margin-left: 5px;
+            }
+
         }
     }
 

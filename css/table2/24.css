@@ -1,7 +1,7 @@
 .type-24 {
   color: #73879C;
 }
-.type-24 .container-fluid .admin-panel {
+.type-24 .admin-panel {
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
@@ -12,44 +12,44 @@
   margin-bottom: 10px;
   position: relative;
 }
-.type-24 .container-fluid .admin-panel .admin-title {
+.type-24 .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
 }
-.type-24 .container-fluid .admin-panel .admin-title h3 {
+.type-24 .admin-panel .admin-title h3 {
   margin: 5px 0 6px;
   float: left;
   display: block;
   font-size: 16px;
 }
-.type-24 .container-fluid .admin-panel .admin-title ul.items {
+.type-24 .admin-panel .admin-title ul.items {
   margin-right: 0;
   min-width: 70px;
   float: right;
   list-style: none;
   margin-top: 5px;
 }
-.type-24 .container-fluid .admin-panel .admin-title ul.items li {
+.type-24 .admin-panel .admin-title ul.items li {
   float: left;
   cursor: pointer;
 }
-.type-24 .container-fluid .admin-panel .admin-title ul.items li a {
+.type-24 .admin-panel .admin-title ul.items li a {
   padding: 5px;
   color: #C5C7CB;
   font-size: 13px;
 }
-.type-24 .container-fluid .admin-panel .admin-title ul.items .collapse-link,
-.type-24 .container-fluid .admin-panel .admin-title ul.items .close-link {
+.type-24 .admin-panel .admin-title ul.items .collapse-link,
+.type-24 .admin-panel .admin-title ul.items .close-link {
   opacity: 1;
 }
-.type-24 .container-fluid .admin-content p {
+.type-24 .admin-content p {
   margin-top: 10px;
 }
-.type-24 .container-fluid .admin-content .btn-group {
+.type-24 .admin-content .btn-group {
   margin-bottom: 0;
   float: left;
 }
-.type-24 .container-fluid .admin-content .btn-group .btn-handle {
+.type-24 .admin-content .btn-group .btn-handle {
   margin-right: -5px;
   color: #333;
   background-color: #fff;
@@ -58,9 +58,9 @@
   padding: 6px 12px;
   border-radius: 5px;
 }
-.type-24 .container-fluid .admin-content .btn-group .btn-handle:hover {
+.type-24 .admin-content .btn-group .btn-handle:hover {
   background-color: #ccc;
 }
-.type-24 .container-fluid .admin-content #datatable-buttons {
+.type-24 .admin-content #datatable-buttons {
   opacity: 1;
 }

@@ -20,138 +20,136 @@ and open the template in the editor.
 @color-a-hover: #23527c;
 
 .type-13 {
-    .container-fluid {
-        .admin-panel {
-            width: 100%;
-            padding: 10px 17px;
-            display: inline-block;
-            background: @background-color-admin;
-            border: 1px solid #E6E9ED;
-            opacity: 1;
-            transition: all .2s ease;
+    .admin-panel {
+        width: 100%;
+        padding: 10px 17px;
+        display: inline-block;
+        background: @background-color-admin;
+        border: 1px solid #E6E9ED;
+        opacity: 1;
+        transition: all .2s ease;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 20px;
+        .admin-title {
+            border-bottom: 2px solid #E6E9ED;
+            padding: 1px 5px 6px;
             margin-bottom: 10px;
-            position: relative;
-            margin-top: 20px;
-            .admin-title {
-                border-bottom: 2px solid #E6E9ED;
-                padding: 1px 5px 6px;
-                margin-bottom: 10px;
 
-                h2 {
-                    margin: 5px 0 6px;
-                    float: left;
-                    display: block;
-                    font-size: @font-size-title;
-                    color: @color;
+            h2 {
+                margin: 5px 0 6px;
+                float: left;
+                display: block;
+                font-size: @font-size-title;
+                color: @color;
 
-                    small {
-                        margin-left: 10px;
-                        font-size: @font-size-body;
-                    }
-                }
-
-                ul.items {
-                    min-width: 70px;
-                    list-style: none;
-                    margin-top: 5px;
-                    float: right;
-                    .collapse-link, .close-link {
-                        opacity: 1;
-                    }
-                }
-                ul.items > li {
-                    float: left;
-                    cursor: pointer;
-                }
-                ul.items > li > a {
-                    padding: 5px;
-                    color: #C5C7CB;
+                small {
+                    margin-left: 10px;
                     font-size: @font-size-body;
                 }
             }
-            .admin-content {
-                padding: 0 5px 6px;
-                float: left;
+
+            ul.items {
+                min-width: 70px;
+                list-style: none;
                 margin-top: 5px;
-                width: 100%;
+                float: right;
+                .collapse-link, .close-link {
+                    opacity: 1;
+                }
+            }
+            ul.items > li {
+                float: left;
+                cursor: pointer;
+            }
+            ul.items > li > a {
+                padding: 5px;
+                color: #C5C7CB;
+                font-size: @font-size-body;
+            }
+        }
+        .admin-content {
+            padding: 0 5px 6px;
+            float: left;
+            margin-top: 5px;
+            width: 100%;
 
-                h2 {
-                    font-size: @font-size-title;
-                }
-                h4 { 
-                    font-size: @font-size-body;
-                    color: @color;
-                }
-                #partly-cloudy-day, #snow, #sleet, #cloudy {
-                    display: block;
-                }
-                #clear-day {
-                    display: block;
-                }
-                .info-progress {
-                    color: @color;
+            h2 {
+                font-size: @font-size-title;
+            }
+            h4 { 
+                font-size: @font-size-body;
+                color: @color;
+            }
+            #partly-cloudy-day, #snow, #sleet, #cloudy {
+                display: block;
+            }
+            #clear-day {
+                display: block;
+            }
+            .info-progress {
+                color: @color;
 
-                    .bg-green {
-                        width: 89%;
-                    }
-                }                
-                table {
-                    th {
-                        p {
-                            color: @color;
-
-                        }
-                    }
+                .bg-green {
+                    width: 89%;
                 }
-
-                ul.quick-list {
-                    width: 45%;
-                    padding-left: 0;
-                    float: left;
-                    list-style: none;
-                    padding: 0px;
-                    li {
-                        padding-left: 10px;
-                        list-style: none;
-                        margin: 0;
-                        padding-bottom: 6px;
-                        padding-top: 4px;
-                    }
-                    li i {
-                        padding-right: 10px;
+            }                
+            table {
+                th {
+                    p {
                         color: @color;
-                    }
-                    a{
-                        color: @color-a;
-                        text-decoration: none;
-                    }
-                    a:hover {
-                        color: @color-a-hover;
 
                     }
                 }
-                .sidebar-widget {
-                    background: @background-color-admin;
-                    border: 1px solid #abd9ea;
-                    border-radius: 5px;
-                    text-align: center;
-                    float: right;
-                    padding: 2px;
-                    h4
-                    {
-                        font-size: @font-size-body;
-                        font-weight: 500;
+            }
+
+            ul.quick-list {
+                width: 45%;
+                padding-left: 0;
+                float: left;
+                list-style: none;
+                padding: 0px;
+                li {
+                    padding-left: 10px;
+                    list-style: none;
+                    margin: 0;
+                    padding-bottom: 6px;
+                    padding-top: 4px;
+                }
+                li i {
+                    padding-right: 10px;
+                    color: @color;
+                }
+                a{
+                    color: @color-a;
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: @color-a-hover;
+
+                }
+            }
+            .sidebar-widget {
+                background: @background-color-admin;
+                border: 1px solid #abd9ea;
+                border-radius: 5px;
+                text-align: center;
+                float: right;
+                padding: 2px;
+                h4
+                {
+                    font-size: @font-size-body;
+                    font-weight: 500;
+                }
+                .goal-wrapper {
+                    display: block;
+                    .gauge-value, .goal-value, #gauge-text, #goal-text {
+                        opacity: 1;
                     }
-                    .goal-wrapper {
-                        display: block;
-                        .gauge-value, .goal-value, #gauge-text, #goal-text {
-                            opacity: 1;
-                        }
-                    }
-                    #chart_gauge_01 {
-                        width: 160px; 
-                        height: 100px;
-                    }
+                }
+                #chart_gauge_01 {
+                    width: 160px; 
+                    height: 100px;
                 }
             }
         }

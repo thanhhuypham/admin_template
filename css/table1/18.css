@@ -1,7 +1,7 @@
 .type-18 {
   color: #73879C;
 }
-.type-18 .container-fluid .admin-panel {
+.type-18 .admin-panel {
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
@@ -12,58 +12,58 @@
   margin-bottom: 10px;
   position: relative;
 }
-.type-18 .container-fluid .admin-panel .admin-title {
+.type-18 .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
 }
-.type-18 .container-fluid .admin-panel .admin-title h3 {
+.type-18 .admin-panel .admin-title h3 {
   margin: 5px 0 6px;
   float: left;
   display: block;
   font-size: 16px;
 }
-.type-18 .container-fluid .admin-panel .admin-title ul.items {
+.type-18 .admin-panel .admin-title ul.items {
   margin-right: 0;
   min-width: 70px;
   float: right;
   list-style: none;
   margin-top: 5px;
 }
-.type-18 .container-fluid .admin-panel .admin-title ul.items li {
+.type-18 .admin-panel .admin-title ul.items li {
   float: left;
   cursor: pointer;
 }
-.type-18 .container-fluid .admin-panel .admin-title ul.items li a {
+.type-18 .admin-panel .admin-title ul.items li a {
   padding: 5px;
   color: #5A738E;
   font-size: 13px;
 }
-.type-18 .container-fluid .admin-panel .admin-title ul.items .collapse-link,
-.type-18 .container-fluid .admin-panel .admin-title ul.items .close-link {
+.type-18 .admin-panel .admin-title ul.items .collapse-link,
+.type-18 .admin-panel .admin-title ul.items .close-link {
   opacity: 1;
 }
-.type-18 .container-fluid .admin-panel .admin-content {
+.type-18 .admin-panel .admin-content {
   padding: 0 5px 6px;
   float: left;
   margin-top: 5px;
   width: 100%;
 }
-.type-18 .container-fluid .admin-panel .admin-content p {
+.type-18 .admin-panel .admin-content p {
   margin-top: 10px;
 }
-.type-18 .container-fluid .admin-panel .admin-content .info-table table.data-table {
+.type-18 .admin-panel .admin-content .info-table table.data-table {
   border: 1px solid rgba(221,221,221,0.78);
 }
-.type-18 .container-fluid .admin-panel .admin-content .info-table table.data-table thead {
+.type-18 .admin-panel .admin-content .info-table table.data-table thead {
   background: rgba(52,73,94,0.94);
   color: #ECF0F1;
 }
-.type-18 .container-fluid .admin-panel .admin-content .info-table table.data-table tbody tr:hover td {
+.type-18 .admin-panel .admin-content .info-table table.data-table tbody tr:hover td {
   background: rgba(38,185,154,0.07);
   border-top: 1px solid rgba(38,185,154,0.11);
   border-bottom: 1px solid rgba(38,185,154,0.11);
 }
-.type-18 .container-fluid .admin-panel .admin-content .info-table table.data-table tbody tr td.last a {
+.type-18 .admin-panel .admin-content .info-table table.data-table tbody tr td.last a {
   text-decoration: none;
   color: #5A738E;
 }

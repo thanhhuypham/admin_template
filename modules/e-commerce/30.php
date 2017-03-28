@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Module - Top navigation table1</title>
+        <title>Module - Top navigation e-commerce</title>
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="../../css/font-awesome.min.css">
@@ -26,7 +26,7 @@
 
     <body>
         <div class="type-30">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="top-nav">
                     <div class="nav_menu">
                         <nav>

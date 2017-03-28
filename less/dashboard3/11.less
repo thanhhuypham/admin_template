@@ -11,69 +11,67 @@ and open the template in the editor.
 @font-size-title: 20px;
 @font-size-body: 13px;
 .type-11 {
-    .container-fluid {
-        .admin-panel {
-            width: 100%;
-            padding: 10px 17px;
-            display: inline-block;
-            background: @background-color-admin;
-            border: 1px solid #E6E9ED;
-            opacity: 1;
-            transition: all .2s ease;
-            margin-bottom: 10px;
-            position: relative;
-            margin-top: 10px;
+    .admin-panel {
+        width: 100%;
+        padding: 10px 17px;
+        display: inline-block;
+        background: @background-color-admin;
+        border: 1px solid #E6E9ED;
+        opacity: 1;
+        transition: all .2s ease;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 10px;
+        .admin-title {
+            border-bottom: 2px solid #E6E9ED;
+            padding: 1px 5px 6px;
+            span, .fa, .glyphicon{
+                color: #BDBDBD;
+            }
+
+            h2 {
+                margin: 5px 0 6px;
+                float: left;
+                display: block;
+                font-size: @font-size-title;
+                color: #73879C;
+                small {
+                    margin-left: 10px;
+                }
+            }
+            .filter-time {
+                font-size: @font-size-body;
+                #reportrange {
+                    background: @background-color-admin;
+                    cursor: pointer;
+                    padding: 5px 10px;
+                    border: 1px solid #ccc;
+                    float:right;
+                }
+            }
+
+        }
+        .admin-content {
+            padding: 0 5px 6px;
+            float: left;
+            clear: both;
+            margin-top: 5px;
+
+            .demo-placeholder {
+                height: 280px;
+            }
             .admin-title {
                 border-bottom: 2px solid #E6E9ED;
                 padding: 1px 5px 6px;
-                span, .fa, .glyphicon{
-                    color: #BDBDBD;
-                }
 
                 h2 {
                     margin: 5px 0 6px;
                     float: left;
                     display: block;
-                    font-size: @font-size-title;
-                    color: #73879C;
-                    small {
-                        margin-left: 10px;
-                    }
                 }
-                .filter-time {
-                    font-size: @font-size-body;
-                    #reportrange {
-                        background: @background-color-admin;
-                        cursor: pointer;
-                        padding: 5px 10px;
-                        border: 1px solid #ccc;
-                        float:right;
-                    }
-                }
-
             }
-            .admin-content {
-                padding: 0 5px 6px;
-                float: left;
-                clear: both;
-                margin-top: 5px;
-
-                .demo-placeholder {
-                    height: 280px;
-                }
-                .admin-title {
-                    border-bottom: 2px solid #E6E9ED;
-                    padding: 1px 5px 6px;
-
-                    h2 {
-                        margin: 5px 0 6px;
-                        float: left;
-                        display: block;
-                    }
-                }
-                #chart_plot_03 {
-                    opacity: 1;
-                }
+            #chart_plot_03 {
+                opacity: 1;
             }
         }
     }

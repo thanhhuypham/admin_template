@@ -12,97 +12,95 @@ and open the template in the editor.
 @background-color: #fff;
 @color: #73879C;
 .type-6 {
-    .container-fluid {
-        .admin-panel {
-            width: 100%;
-            padding: 10px 17px;
-            display: inline-block;
-            background: #fff;
-            border: 1px solid #E6E9ED;
-            opacity: 1;
-            transition: all .2s ease;
+    .admin-panel {
+        width: 100%;
+        padding: 10px 17px;
+        display: inline-block;
+        background: #fff;
+        border: 1px solid #E6E9ED;
+        opacity: 1;
+        transition: all .2s ease;
+        margin-bottom: 10px;
+        position: relative;
+        margin-top: 20px;
+        .admin-title {
+            border-bottom: 2px solid #E6E9ED;
+            padding: 1px 5px 6px;
             margin-bottom: 10px;
-            position: relative;
-            margin-top: 20px;
-            .admin-title {
-                border-bottom: 2px solid #E6E9ED;
-                padding: 1px 5px 6px;
-                margin-bottom: 10px;
 
-                h2 {
-                    margin: 5px 0 6px;
-                    float: left;
-                    display: block;
-                    font-size: @font-size-title;
-                    color: @color;
+            h2 {
+                margin: 5px 0 6px;
+                float: left;
+                display: block;
+                font-size: @font-size-title;
+                color: @color;
 
-                    small {
-                        margin-left: 10px;
-                        font-size: @font-size-body;
-                    }
-                }
-
-                ul.items {
-                    min-width: 70px;
-                    margin-right: 0;
-                    float: right;
-                    list-style: none;
-                    margin-top: 5px;
-
-                    .collapse-link, .close-link {
-                        opacity: 1;
-                    }
-                }
-                ul.items > li {
-                    float: left;
-                    cursor: pointer;
-                }
-                ul.items > li > a {
-                    padding: 5px;
-                    color: @color;
+                small {
+                    margin-left: 10px;
                     font-size: @font-size-body;
                 }
             }
-            .admin-content {
-                padding: 0 5px 6px;
-                width: 100%;
 
-                div.list-items {
-                    margin-top: 15px;
+            ul.items {
+                min-width: 70px;
+                margin-right: 0;
+                float: right;
+                list-style: none;
+                margin-top: 5px;
 
-                    .date {
-                        background: #ccc;
-                        width: 52px;
-                        margin-right: 10px;
-                        border-radius: 10px;
-                        padding: 5px;
-                        float: left;
-                        text-decoration: none;
+                .collapse-link, .close-link {
+                    opacity: 1;
+                }
+            }
+            ul.items > li {
+                float: left;
+                cursor: pointer;
+            }
+            ul.items > li > a {
+                padding: 5px;
+                color: @color;
+                font-size: @font-size-body;
+            }
+        }
+        .admin-content {
+            padding: 0 5px 6px;
+            width: 100%;
 
-                        .month, .day {
-                            margin: 0;
-                            text-align: center;
-                            color: #fff;
-                        }
+            div.list-items {
+                margin-top: 15px;
 
-                        .day {
-                            font-size: @font-size-title;
-                            line-height: 27px;
-                            font-weight: 700;
-                        }
+                .date {
+                    background: #ccc;
+                    width: 52px;
+                    margin-right: 10px;
+                    border-radius: 10px;
+                    padding: 5px;
+                    float: left;
+                    text-decoration: none;
+
+                    .month, .day {
+                        margin: 0;
+                        text-align: center;
+                        color: #fff;
                     }
 
-                    .items-info {
-                        a.title {
-                            font-weight: 700;
-                            color: #5A738E;
-                            text-decoration: none;
-                        }
-                        p {
-                            margin-bottom: 0;
-                            white-space: pre-line;
-                            color: @color;
-                        }
+                    .day {
+                        font-size: @font-size-title;
+                        line-height: 27px;
+                        font-weight: 700;
+                    }
+                }
+
+                .items-info {
+                    a.title {
+                        font-weight: 700;
+                        color: #5A738E;
+                        text-decoration: none;
+                    }
+                    p {
+                        margin-bottom: 0;
+                        white-space: pre-line;
+                        color: @color;
                     }
                 }
             }

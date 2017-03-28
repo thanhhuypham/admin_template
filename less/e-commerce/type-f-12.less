@@ -7,7 +7,14 @@ and open the template in the editor.
     Created on : Mar 27, 2017, 4:59:45 PM
     Author     : ITLAB
 */
-
+.ul-temp {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+.a-temp {
+    text-decoration: none;
+}
 .type-f-12 {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -26,7 +33,7 @@ and open the template in the editor.
                     padding: 5px;
                 }
                 .fa-paw, span {
-                    font-size: 16px;
+                    font-size: 19px;
                 }
             }
         }
@@ -129,11 +136,11 @@ and open the template in the editor.
                 position: fixed;
                 bottom: 0;
                 background-color: #2A3F54;
-                width: 235px;
+                width: 230px;
                 a {
                     padding: 7px 0 3px;
                     text-align: center;
-                    width: 17%;
+                    width: 20.5%;
                     font-size: 12px;
                     display: block;
                     float: left;
@@ -148,9 +155,8 @@ and open the template in the editor.
     }
     .top-nav {
         .nav_menu {
-            background-color:#ededed;
+            background-color: #ededed;
             border-bottom: 1px solid #d9dee4;
-
             #menu-toggle {
                 color: #5A738E;
                 font-size: 26px;
@@ -162,6 +168,8 @@ and open the template in the editor.
             }
         }
         .navbar-right {
+            margin: 0;
+            width: 70%;
             float: right;
 
             li {
@@ -262,21 +270,21 @@ and open the template in the editor.
             }
         }
     }
+    color: #73879C;
     .content {
-        margin: 20px 0;
         .content-left {
+            float: left;
             h3 {
-                margin: 9px 0;
-                color: #73879C;
+                margin: 20px 0;
+
             }
         }
         .content-right {
-            margin: -33px 0;
             float: right;
-            padding: 0;
             .input-search {
-                margin-bottom: 10px;
+                margin-top: 22px;
                 position: relative;
+                display: flex;
                 .form-search {
                     box-shadow: inset 0 1px 0 rgba(0,0,0,.075);
                     border-radius: 25px 0 0 25px;
@@ -289,10 +297,10 @@ and open the template in the editor.
                         border: 1px solid rgba(221,226,232,.49);
                         border-left: 0;
                         background-color: #ffffff;
-                        color:#93a2b2;
+                        color: #73879C;
                     }
                     .btn-search:hover {
-                        background-color: #e6e6e6;
+                        background-color:#93A2B2;
                     }
                 }
             }
@@ -308,7 +316,6 @@ and open the template in the editor.
         transition: all .2s ease;
         margin-bottom: 10px;
         position: relative;
-        color: #73879C;
 
         .admin-title {
             border-bottom: 2px solid #E6E9ED;
@@ -317,7 +324,7 @@ and open the template in the editor.
                 margin: 5px 0 6px;
                 float: left;
                 display: block;
-                font-size: 16px;
+                font-size: 18px;
             }
             ul.items {
                 margin-right: 0;
@@ -339,31 +346,170 @@ and open the template in the editor.
                 }
             }
         }
-    }
-    .admin-content {
-        p {
-            margin-top: 10px;
-        }
-
-
-        .btn-group {
-            margin-bottom: 0;
-            float: left;
-            .btn-handle {
-                margin-right: -5px;
-                color: #333;
-                background-color: #fff;
-                text-decoration: none;
-                border: 1px solid #ccc;
-                padding: 6px 12px;
-                border-radius: 5px;
-            }   
-            .btn-handle:hover {
-                background-color: #ccc;
+        .admin-content {
+            .product-img, .product-name {
+                margin-top: 15px;
             }
-        }
-        #datatable, #datatable-checkbox, #datatable-buttons, #datatable-fixed-header, #datatable-keytable, #datatable-responsive {
-            opacity: 1;
+            .product-img {
+                img {
+                    max-width: 100%;
+                }
+            }
+            .product-gallery {
+                a {
+                    width: 100px;
+                    height: 100px;
+                    float: left;
+                    margin: 10px;
+                    border: 1px solid #e5e5e5;
+                    img {
+                        max-width: 100%;
+                        margin-top: 15px;
+                    }
+                }
+            }
+            .product-name {
+                border-bottom: 1px solid #e0e0e0;
+            }
+            .product-info {
+                p.description {
+                    padding: 25px 0;
+                }
+
+                .product-color {
+                    ul.color-name {
+                        .ul-temp;
+                        li {
+                            margin: 0 10px; 
+                            padding: 0 5px;
+                            float: left;
+                            p {
+                                margin-bottom: 0;
+                            }
+                            .color {
+                                width: 25px;
+                                height: 25px;
+                                border: 2px solid rgba(51,51,51,.28)!important;
+                                padding: 2px;
+                                border-radius: 50px;
+                            }
+                            .color.green {
+                                background: #1ABB9C!important;
+                                color: #fff;
+                            }
+                            .color.blue {
+                                background: #3498DB!important;
+                                color: #fff;
+                            }
+                            .color.red {
+                                background: #E74C3C!important;
+                                color: #fff;
+                            }
+                            .color.orange {
+                                background: #F39C12!important;
+                                color: #fff;
+                            }
+                        }
+                    }
+                }
+                .product-size {
+                    padding: 25px 0;
+                    ul.size-name {
+                        .ul-temp;
+                        li {
+                            margin: 0; 
+                            padding: 0 5px;
+                            float: left;
+                            a.btn-size {
+                                margin-bottom: 5px;
+                                margin-right: 5px;
+                                color: #333;
+                                background-color: #fff;
+                                border: 1px solid #ccc;
+                                .a-temp;
+                                padding: 1px 5px;
+                                border-radius: 3px;
+                                font-size: 12px;
+                            }
+                            a.btn-size:hover {
+                                background-color: #e6e6e6;
+                                border-color: #adadad;
+                            }
+                        }
+                    }
+                }
+                .product-price {
+                    margin-top: 50px;
+                    padding: 5px 10px;
+                    background-color: #FFF;
+                    text-align: left;
+                    border: 2px dashed #E0E0E0; 
+                    .price {
+                        color: #26B99A;
+                        margin: 0;
+                        font-weight: 400;
+                    }
+                    .price-tax {
+                        font-size: 18px;
+                    }
+                }
+                .product-btnadd {
+                    margin-top: 25px;
+                    .add-to-cart {
+                        margin-bottom: 5px;
+                        margin-right: 5px;
+                        color: #333;
+                        background-color: #fff;
+                        border: 1px solid #ccc;
+                        padding: 10px 16px;
+                        border-radius: 5px;
+                        font-size: 18px;
+                        .a-temp;
+                    }
+                    .add-to-cart:hover {
+                        background-color: #e6e6e6;
+                        border-color: #adadad;
+                    }
+                }
+                .product-social {
+                    margin-top: 35px;
+                    ul.list-social {
+                        .ul-temp;
+                        li {
+                            float: left;
+                            padding: 0 4px;
+                            margin: 0;
+                            a {
+                                color: #5A738E;
+                                i {
+                                    font-size: 35px;
+                                }
+                            }
+                            a:hover {
+                                color: #337ab7;
+
+                            }
+                        }
+                    }
+                }                    
+            }
+            ul.nav-tabs {
+                margin-top: 25px;
+                padding-left: 10px;
+                background: #F5F7FA;
+                li {
+                    color: #333!important;
+                    background: #F5F7FA;
+                    border-bottom: none;
+                    border-radius: 4px 4px 0 0;
+                    a {
+                        color: #5A738E;
+                    }
+                }
+            }
+            .tab-content {
+                padding: 10px 0;
+            }
         }
     }
     .page-content-wrraper {
@@ -374,7 +520,7 @@ and open the template in the editor.
         transition: all 0.5s ease;
     }
     footer {
-        padding: 10px 10px;
+        padding: 25px 0;
         display: block;
         color: #5A738E;
         text-align: right;
@@ -409,7 +555,7 @@ and open the template in the editor.
 
 }
 .type-f-12.toggled {
-    margin-left: -195px;
+    margin-left: -270px;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;

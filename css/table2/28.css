@@ -1,13 +1,13 @@
-.type-28 .container-fluid footer {
+.type-28 footer {
   text-align: right;
   padding: 10px 10px;
   display: block;
   color: #5A738E;
 }
-.type-28 .container-fluid footer a {
+.type-28 footer a {
   text-decoration: none;
   color: #5A738E;
 }
-.type-28 .container-fluid footer a:hover {
+.type-28 footer a:hover {
   text-decoration: none;
 }

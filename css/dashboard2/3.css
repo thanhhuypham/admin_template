@@ -1,7 +1,7 @@
 .type-3 {
   padding: 10px 20px;
 }
-.type-3 .container-fluid .new-sign-up {
+.type-3 .new-sign-up {
   position: relative;
   display: block;
   margin-bottom: 12px;
@@ -12,7 +12,7 @@
   background: #fff;
   transition: all .3s ease-in-out;
 }
-.type-3 .container-fluid .new-sign-up .icon {
+.type-3 .new-sign-up .icon {
   width: 20px;
   height: 20px;
   color: #BAB8B8;
@@ -21,31 +21,31 @@
   top: 20px;
   z-index: 1;
 }
-.type-3 .container-fluid .new-sign-up .icon i {
+.type-3 .new-sign-up .icon i {
   margin: 0;
   font-size: 60px;
   line-height: 0;
   vertical-align: bottom;
   padding: 0;
 }
-.type-3 .container-fluid .new-sign-up .count,
-.type-3 .container-fluid .new-sign-up h3,
-.type-3 .container-fluid .new-sign-up p {
+.type-3 .new-sign-up .count,
+.type-3 .new-sign-up h3,
+.type-3 .new-sign-up p {
   position: relative;
   margin: 0 0 0 10px;
   z-index: 5;
   padding: 0;
 }
-.type-3 .container-fluid .new-sign-up .count {
+.type-3 .new-sign-up .count {
   font-size: 38px;
   font-weight: 700;
   line-height: 1.65857;
   color: #73879C;
 }
-.type-3 .container-fluid .new-sign-up h3 {
+.type-3 .new-sign-up h3 {
   color: #BAB8B8;
 }
-.type-3 .container-fluid .new-sign-up p {
+.type-3 .new-sign-up p {
   margin-top: 5px;
   font-size: 13px;
   color: #73879C;

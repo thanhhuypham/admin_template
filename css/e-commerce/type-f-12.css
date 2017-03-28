@@ -1,8 +1,17 @@
+.ul-temp {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.a-temp {
+  text-decoration: none;
+}
 .type-f-12 {
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  color: #73879C;
 }
 .type-f-12 .sidebar-left .logo {
   text-align: center;
@@ -19,7 +28,7 @@
 }
 .type-f-12 .sidebar-left .logo a .fa-paw,
 .type-f-12 .sidebar-left .logo a span {
-  font-size: 16px;
+  font-size: 19px;
 }
 .type-f-12 .sidebar-left .img-user {
   padding-left: 12px;
@@ -132,12 +141,12 @@
   position: fixed;
   bottom: 0;
   background-color: #2A3F54;
-  width: 235px;
+  width: 230px;
 }
 .type-f-12 .sidebar-left .menu-vertical .sidebar-footer a {
   padding: 7px 0 3px;
   text-align: center;
-  width: 17%;
+  width: 20.5%;
   font-size: 12px;
   display: block;
   float: left;
@@ -161,6 +170,8 @@
   color: #2A3F54;
 }
 .type-f-12 .top-nav .navbar-right {
+  margin: 0;
+  width: 70%;
   float: right;
 }
 .type-f-12 .top-nav .navbar-right li {
@@ -245,21 +256,19 @@
   border: 1px solid #1ABB9C;
   color: #fff;
 }
-.type-f-12 .content {
-  margin: 20px 0;
+.type-f-12 .content .content-left {
+  float: left;
 }
 .type-f-12 .content .content-left h3 {
-  margin: 9px 0;
-  color: #73879C;
+  margin: 20px 0;
 }
 .type-f-12 .content .content-right {
-  margin: -33px 0;
   float: right;
-  padding: 0;
 }
 .type-f-12 .content .content-right .input-search {
-  margin-bottom: 10px;
+  margin-top: 22px;
   position: relative;
+  display: flex;
 }
 .type-f-12 .content .content-right .input-search .form-search {
   box-shadow: inset 0 1px 0 rgba(0,0,0,0.075);
@@ -272,10 +281,10 @@
   border: 1px solid rgba(221,226,232,0.49);
   border-left: 0;
   background-color: #ffffff;
-  color: #93a2b2;
+  color: #73879C;
 }
 .type-f-12 .content .content-right .input-search .input-btn-search .btn-search:hover {
-  background-color: #e6e6e6;
+  background-color: #93A2B2;
 }
 .type-f-12 .admin-panel {
   width: 100%;
@@ -287,7 +296,6 @@
   transition: all .2s ease;
   margin-bottom: 10px;
   position: relative;
-  color: #73879C;
 }
 .type-f-12 .admin-panel .admin-title {
   border-bottom: 2px solid #E6E9ED;
@@ -297,7 +305,7 @@
   margin: 5px 0 6px;
   float: left;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
 }
 .type-f-12 .admin-panel .admin-title ul.items {
   margin-right: 0;
@@ -319,32 +327,165 @@
 .type-f-12 .admin-panel .admin-title ul.items .close-link {
   opacity: 1;
 }
-.type-f-12 .admin-content p {
-  margin-top: 10px;
+.type-f-12 .admin-panel .admin-content .product-img,
+.type-f-12 .admin-panel .admin-content .product-name {
+  margin-top: 15px;
 }
-.type-f-12 .admin-content .btn-group {
-  margin-bottom: 0;
+.type-f-12 .admin-panel .admin-content .product-img img {
+  max-width: 100%;
+}
+.type-f-12 .admin-panel .admin-content .product-gallery a {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 10px;
+  border: 1px solid #e5e5e5;
+}
+.type-f-12 .admin-panel .admin-content .product-gallery a img {
+  max-width: 100%;
+  margin-top: 15px;
+}
+.type-f-12 .admin-panel .admin-content .product-name {
+  border-bottom: 1px solid #e0e0e0;
+}
+.type-f-12 .admin-panel .admin-content .product-info p.description {
+  padding: 25px 0;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li {
+  margin: 0 10px;
+  padding: 0 5px;
   float: left;
 }
-.type-f-12 .admin-content .btn-group .btn-handle {
-  margin-right: -5px;
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li p {
+  margin-bottom: 0;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li .color {
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgba(51,51,51,0.28) !important;
+  padding: 2px;
+  border-radius: 50px;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li .color.green {
+  background: #1ABB9C !important;
+  color: #fff;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li .color.blue {
+  background: #3498DB !important;
+  color: #fff;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li .color.red {
+  background: #E74C3C !important;
+  color: #fff;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-color ul.color-name li .color.orange {
+  background: #F39C12 !important;
+  color: #fff;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-size {
+  padding: 25px 0;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-size ul.size-name {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-size ul.size-name li {
+  margin: 0;
+  padding: 0 5px;
+  float: left;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-size ul.size-name li a.btn-size {
+  margin-bottom: 5px;
+  margin-right: 5px;
   color: #333;
   background-color: #fff;
-  text-decoration: none;
   border: 1px solid #ccc;
-  padding: 6px 12px;
+  text-decoration: none;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-size ul.size-name li a.btn-size:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-price {
+  margin-top: 50px;
+  padding: 5px 10px;
+  background-color: #FFF;
+  text-align: left;
+  border: 2px dashed #E0E0E0;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-price .price {
+  color: #26B99A;
+  margin: 0;
+  font-weight: 400;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-price .price-tax {
+  font-size: 18px;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-btnadd {
+  margin-top: 25px;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-btnadd .add-to-cart {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 16px;
   border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
 }
-.type-f-12 .admin-content .btn-group .btn-handle:hover {
-  background-color: #ccc;
+.type-f-12 .admin-panel .admin-content .product-info .product-btnadd .add-to-cart:hover {
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
-.type-f-12 .admin-content #datatable,
-.type-f-12 .admin-content #datatable-checkbox,
-.type-f-12 .admin-content #datatable-buttons,
-.type-f-12 .admin-content #datatable-fixed-header,
-.type-f-12 .admin-content #datatable-keytable,
-.type-f-12 .admin-content #datatable-responsive {
-  opacity: 1;
+.type-f-12 .admin-panel .admin-content .product-info .product-social {
+  margin-top: 35px;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-social ul.list-social {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-social ul.list-social li {
+  float: left;
+  padding: 0 4px;
+  margin: 0;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-social ul.list-social li a {
+  color: #5A738E;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-social ul.list-social li a i {
+  font-size: 35px;
+}
+.type-f-12 .admin-panel .admin-content .product-info .product-social ul.list-social li a:hover {
+  color: #337ab7;
+}
+.type-f-12 .admin-panel .admin-content ul.nav-tabs {
+  margin-top: 25px;
+  padding-left: 10px;
+  background: #F5F7FA;
+}
+.type-f-12 .admin-panel .admin-content ul.nav-tabs li {
+  color: #333 !important;
+  background: #F5F7FA;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+.type-f-12 .admin-panel .admin-content ul.nav-tabs li a {
+  color: #5A738E;
+}
+.type-f-12 .admin-panel .admin-content .tab-content {
+  padding: 10px 0;
 }
 .type-f-12 .page-content-wrraper {
   background-color: #ffffff;
@@ -354,7 +495,7 @@
   transition: all 0.5s ease;
 }
 .type-f-12 footer {
-  padding: 10px 10px;
+  padding: 25px 0;
   display: block;
   color: #5A738E;
   text-align: right;
@@ -384,7 +525,7 @@
   background: #ff6734;
 }
 .type-f-12.toggled {
-  margin-left: -195px;
+  margin-left: -270px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;

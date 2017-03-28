@@ -24,7 +24,7 @@
 
     <body>
         <div class="type-3">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="new-sign-up">

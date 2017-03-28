@@ -26,7 +26,7 @@
 
     <body>
         <div class="type-21">
-            <div class="container-fluid">
+            <div class="container">
                 <div class="top-nav">
                     <div class="nav_menu">
                         <nav>
