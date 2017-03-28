@@ -60,10 +60,10 @@
                                             <a href="#">Dashboard</a>
                                         </li>
                                         <li>
-                                            <a href="#">Dashboard2</a>
+                                            <a href="index_dashboard2.php">Dashboard2</a>
                                         </li>
                                         <li class="current-page" style="margin-bottom: 8px;">
-                                            <a href="#">Dashboard3</a>
+                                            <a href="index_dashboard3.php">Dashboard3</a>
                                         </li>
                                     </ul>
                                 </li> 
@@ -107,8 +107,8 @@
                                         </a>
                                     </div>
                                     <ul class="child-menu" id="child-tables" style="display: none;">
-                                        <li style="margin-top: 6px;"><a href="#">Tables</a></li>
-                                        <li><a href="#" style="margin-bottom: 8px;">Table Dynamic</a></li>
+                                        <li style="margin-top: 6px;"><a href="index_table1.php">Tables</a></li>
+                                        <li><a href="index_table2.php" style="margin-bottom: 8px;">Table Dynamic</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -147,7 +147,7 @@
                                     </div>
                                     <ul class="child-menu" id="child-additional" style="display: block;">
                                         <li class="current-page" style="margin-top: 2px;">
-                                            <a href="#">E-commerce</a>
+                                            <a href="index_e-commerce.php">E-commerce</a>
                                         </li>
                                         <li>
                                             <a href="#">Projects</a>

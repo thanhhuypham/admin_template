@@ -151,7 +151,7 @@
                                     </div>
                                     <ul class="child-menu" id="child-additional" style="display: none;">
                                         <li>
-                                            <a href="#">E-commerce</a>
+                                            <a href="index_e-commerce.php">E-commerce</a>
                                         </li>
                                         <li>
                                             <a href="#">Projects</a>
