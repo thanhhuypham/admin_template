@@ -76,7 +76,7 @@
 .type-31 .admin-panel .admin-content .product-name {
   margin-top: 15px;
 }
-.type-31 .admin-panel .admin-content .product-img img {
+.type-31 .admin-panel .admin-content .product-img img#main {
   max-width: 100%;
 }
 .type-31 .admin-panel .admin-content .product-gallery a {
@@ -232,13 +232,9 @@
 .type-31 .admin-panel .admin-content .tab-content {
   padding: 10px 0;
 }
-.ul-temp {
-  padding-left: 0;
-  margin-left: -5px;
-  list-style: none;
-}
-.a-temp {
-  text-decoration: none;
+.type-31 .admin-panel .admin-content .tab-content #menu1,
+.type-31 .admin-panel .admin-content .tab-content #menu2 {
+  padding: 0;
 }
 @media (max-width: 980px) {
   .content .content-left h3 {

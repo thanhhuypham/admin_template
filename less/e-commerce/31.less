@@ -90,7 +90,7 @@ and open the template in the editor.
                 margin-top: 15px;
             }
             .product-img {
-                img {
+                img#main {
                     max-width: 100%;
                 }
             }
@@ -117,7 +117,10 @@ and open the template in the editor.
 
                 .product-color {
                     ul.color-name {
-                        .ul-temp;
+
+                        padding-left: 0;
+                        margin-left: -5px;
+                        list-style: none;
                         li {
                             margin: 0 10px; 
                             padding: 0 5px;
@@ -154,7 +157,9 @@ and open the template in the editor.
                 .product-size {
                     padding: 25px 0;
                     ul.size-name {
-                        .ul-temp;
+                        padding-left: 0;
+                        margin-left: -5px;
+                        list-style: none;
                         li {
                             margin: 0; 
                             padding: 0 5px;
@@ -165,7 +170,7 @@ and open the template in the editor.
                                 color: #333;
                                 background-color: #fff;
                                 border: 1px solid #ccc;
-                                .a-temp;
+                                text-decoration: none;
                                 padding: 1px 5px;
                                 border-radius: 3px;
                                 font-size: 12px;
@@ -203,7 +208,7 @@ and open the template in the editor.
                         padding: 10px 16px;
                         border-radius: 5px;
                         font-size: 18px;
-                        .a-temp;
+                        text-decoration: none;
                     }
                     .add-to-cart:hover {
                         background-color: #e6e6e6;
@@ -213,7 +218,9 @@ and open the template in the editor.
                 .product-social {
                     margin-top: 35px;
                     ul.list-social {
-                        .ul-temp;
+                        padding-left: 0;
+                        margin-left: -5px;
+                        list-style: none;
                         li {
                             float: left;
                             padding: 0 4px;
@@ -248,17 +255,12 @@ and open the template in the editor.
             }
             .tab-content {
                 padding: 10px 0;
+                #menu1, #menu2 {
+                    padding: 0;
+                }
             }
         }
     }
-}
-.ul-temp {
-    padding-left: 0;
-    margin-left: -5px;
-    list-style: none;
-}
-.a-temp {
-    text-decoration: none;
 }
 
 @media (max-width: 980px) {
