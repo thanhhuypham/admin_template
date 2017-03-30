@@ -1,0 +1,160 @@
+.type-35 {
+  color: #73879C;
+}
+.type-35 .content .content-left {
+  float: left;
+}
+.type-35 .content .content-left h3 {
+  margin: 20px 0;
+}
+.type-35 .content .content-right {
+  float: right;
+}
+.type-35 .content .content-right .input-search {
+  margin-top: 22px;
+  position: relative;
+  display: flex;
+}
+.type-35 .content .content-right .input-search .form-search {
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.075);
+  border-radius: 25px 0 0 25px;
+  padding-left: 20px;
+  border: 1px solid rgba(221,226,232,0.49);
+}
+.type-35 .content .content-right .input-search .input-btn-search .btn-search {
+  border-radius: 0 25px 25px 0;
+  border: 1px solid rgba(221,226,232,0.49);
+  border-left: 0;
+  background-color: #fff;
+  color: #73879C;
+}
+.type-35 .content .content-right .input-search .input-btn-search .btn-search:hover {
+  background-color: #93A2B2;
+}
+.type-35 .admin-panel {
+  width: 100%;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  opacity: 1;
+  transition: all .2s ease;
+  margin-bottom: 10px;
+  position: relative;
+}
+.type-35 .admin-panel .admin-title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+}
+.type-35 .admin-panel .admin-title h3 {
+  margin: 5px 0 6px;
+  float: left;
+  display: block;
+  font-size: 18px;
+}
+.type-35 .admin-panel .admin-title ul.items {
+  margin-right: 0;
+  min-width: 70px;
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+}
+.type-35 .admin-panel .admin-title ul.items li {
+  float: left;
+  cursor: pointer;
+}
+.type-35 .admin-panel .admin-title ul.items li a {
+  padding: 5px;
+  color: #C5C7CB;
+  font-size: 13px;
+}
+.type-35 .admin-panel .admin-title ul.items .collapse-link,
+.type-35 .admin-panel .admin-title ul.items .close-link {
+  opacity: 1;
+}
+.type-35 .admin-panel .admin-content p {
+  margin-top: 10px;
+}
+.type-35 .admin-panel .admin-content table tbody tr .title-name {
+  color: #5A738E;
+  text-decoration: none;
+}
+.type-35 .admin-panel .admin-content table tbody tr .title-name:hover {
+  color: #23527c;
+}
+.type-35 .admin-panel .admin-content table tbody tr img.avartar {
+  height: 32px;
+  width: 32px;
+  padding: 2px;
+  border-radius: 2px;
+  margin-left: 5px;
+  border: 1px solid #e6e6e6;
+}
+.type-35 .admin-panel .admin-content table tbody tr .project-progress .progress {
+  margin-bottom: 3px !important;
+  margin-top: 5px;
+}
+.type-35 .admin-panel .admin-content table tbody tr .project-progress .progress-bar {
+  background: #1ABB9C !important;
+  border: 1px solid #1ABB9C !important;
+  color: #fff;
+}
+.type-35 .admin-panel .admin-content table tbody tr .status {
+  background-color: #169F85;
+  padding: 5px 5px;
+  color: #ffffff;
+  border: 1px solid #398439;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+.type-35 .admin-panel .admin-content table tbody tr .status:hover {
+  background-color: #449d44;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .view,
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .edit,
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .delete {
+  padding: 5px 5px;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-left: 8px;
+  display: inline-block;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .view i,
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .edit i,
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .delete i {
+  padding-right: 3px;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .view {
+  background-color: #286090;
+  border: 1px solid #46b8da;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .view:hover {
+  background-color: #337ab7;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .edit {
+  background-color: #5bc0de;
+  border: 1px solid #269abc;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .edit:hover {
+  background-color: #31b0d5;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .delete {
+  background-color: #d9534f;
+  border: 1px solid #d43f3a;
+}
+.type-35 .admin-panel .admin-content table tbody tr .btn-function .delete:hover {
+  background-color: #c9302c;
+}
+.type-35 .admin-panel .admin-content table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+@media (max-width: 980px) {
+  .content .content-left h3 {
+    font-size: 16px;
+  }
+  .content .content-right {
+    margin-top: -5px;
+  }
+}

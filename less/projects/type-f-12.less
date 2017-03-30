@@ -4,9 +4,28 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : Mar 27, 2017, 4:59:45 PM
+    Created on : Mar 30, 2017, 10:27:54 AM
     Author     : ITLAB
 */
+
+@color-body: #73879C;
+@font-size: 13px;
+@border-color: #E6E9ED;
+@background-color: #fff;
+@background-color-status: #169F85;
+@background-color-status-hover: #449d44;
+@a-none: none;
+@background-color-view: #286090;
+@background-color-view-hover: #337ab7;
+@border-color-view: #46b8da;
+@background-color-edit: #5bc0de;
+@background-color-edit-hover: #31b0d5;
+@border-color-edit: #269abc;
+@background-color-delete: #d9534f;
+@background-color-delete-hover: #c9302c;
+@border-color-delete: #d43f3a;
+@background-color-tr-child: #f2f2f2;
+
 .type-f-12 {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -20,7 +39,7 @@ and open the template in the editor.
                 text-align: center;
                 line-height: 60px;
                 a {
-                    text-decoration: none;
+                    text-decoration: @a-none;
                     color: #fff;
                     .fa-paw {
                         border: 1px solid #e0e0e0;
@@ -57,12 +76,12 @@ and open the template in the editor.
                 h4 {
                     text-transform: uppercase;
                     line-height: 50px;
-                    font-size:13px;
+                    font-size:@font-size;
                     color: #fff;
                     text-shadow: 1px 1px #000;
                 }
                 ul.item-menu {
-                    list-style: none;
+                    list-style: @a-none;
                     margin: 0;
                     padding: 0;
                     margin-right: -5px;
@@ -73,7 +92,7 @@ and open the template in the editor.
                             background-color: rgba(255,255,255,.06);
                             padding: 10px;
                             a {
-                                text-decoration: none;
+                                text-decoration: @a-none;
                                 font-size: 13px;
                                 .fa-home, .fa-edit, .fa-table, .fa-desktop, .fa-bar-chart-o, .fa-clone, .fa-bug, .fa-windows, .fa-sitemap, .fa-laptop {
                                     width: 30px;
@@ -91,7 +110,7 @@ and open the template in the editor.
                         }
 
                         ul.child-menu {
-                            list-style: none;
+                            list-style: @a-none;
                             margin: 0;
                             padding: 0;
                             li {
@@ -99,7 +118,7 @@ and open the template in the editor.
                                 padding: 10px;
                                 border-right: 5px solid #1ABB9C;
                                 a {
-                                    text-decoration: none;
+                                    text-decoration: @a-none;
                                     padding-left: 30px;
                                     color: #ededed;
                                     font-size: 13px;
@@ -154,7 +173,7 @@ and open the template in the editor.
                 #menu-toggle {
                     color: #5A738E;
                     font-size: 26px;
-                    border: none;
+                    border: @a-none;
                     background-color: #ededed;
                 }
                 #menu-toggle:hover {                
@@ -174,7 +193,7 @@ and open the template in the editor.
                         line-height: 32px;
 
                         img {
-                            max-width: none;
+                            max-width: @a-none;
                             width: 29px;
                             height: 29px;
                             border-radius: 50%;
@@ -223,7 +242,7 @@ and open the template in the editor.
                                     }
                                 }
                                 .time {
-                                    font-size: 13px;
+                                    font-size: @font-size;
                                     font-style: italic;
                                     font-weight: 700;
                                     position: absolute;
@@ -231,14 +250,14 @@ and open the template in the editor.
                                 }
                                 .msg {
                                     display: block;
-                                    font-size: 13px;
+                                    font-size: @font-size;
                                     font-style: italic;
                                 }
                             }
 
                             .text-center {
                                 a {
-                                    text-decoration: none;
+                                    @a-none;
                                 }
                             }
                         }
@@ -340,176 +359,93 @@ and open the template in the editor.
                 }
             }
             .admin-content {
-                .product-img, .product-name {
-                    margin-top: 15px;
+                p {
+                    margin-top: 10px;
                 }
-                .product-img {
-                    img#main {
-                        max-width: 100%;
-                    }
-                }
-                .product-gallery {
-                    a {
-                        width: 100px;
-                        height: 100px;
-                        float: left;
-                        margin: 10px;
-                        border: 1px solid #e5e5e5;
-                        img {
-                            max-width: 100%;
-                            margin-top: 15px;
-                        }
-                    }
-                }
-                .product-name {
-                    border-bottom: 1px solid #e0e0e0;
-                }
-                .product-info {
-                    p.description {
-                        padding: 25px 0;
-                    }
-
-                    .product-color {
-                        ul.color-name {
-                            padding-left: 0;
-                            margin-left: -5px;
-                            list-style: none;
-                            li {
-                                margin: 0 10px; 
-                                padding: 0 5px;
-                                float: left;
-                                p {
-                                    margin-bottom: 0;
+                table {
+                    tbody {
+                        tr {
+                            .title-name {
+                                color: #5A738E;
+                                text-decoration: @a-none;
+                            }
+                            .title-name:hover {
+                                color: #23527c;
+                            }
+                            img.avartar {
+                                height: 32px;
+                                width: 32px;
+                                padding: 2px;
+                                border-radius: 2px;
+                                margin-left: 5px;
+                                border: 1px solid #e6e6e6;
+                            }
+                            .project-progress {
+                                .progress {
+                                    margin-bottom: 3px!important;
+                                    margin-top: 5px;
                                 }
-                                .color {
-                                    width: 25px;
-                                    height: 25px;
-                                    border: 2px solid rgba(51,51,51,.28)!important;
-                                    padding: 2px;
-                                    border-radius: 50px;
-                                }
-                                .color.green {
+                                .progress-bar {
                                     background: #1ABB9C!important;
-                                    color: #fff;
-                                }
-                                .color.blue {
-                                    background: #3498DB!important;
-                                    color: #fff;
-                                }
-                                .color.red {
-                                    background: #E74C3C!important;
-                                    color: #fff;
-                                }
-                                .color.orange {
-                                    background: #F39C12!important;
+                                    border: 1px solid #1ABB9C!important;
                                     color: #fff;
                                 }
                             }
-                        }
-                    }
-                    .product-size {
-                        padding: 25px 0;
-                        ul.size-name {
-                            padding-left: 0;
-                            margin-left: -5px;
-                            list-style: none;
-                            li {
-                                margin: 0; 
-                                padding: 0 5px;
-                                float: left;
-                                a.btn-size {
-                                    margin-bottom: 5px;
-                                    margin-right: 5px;
-                                    color: #333;
-                                    background-color: #fff;
-                                    border: 1px solid #ccc;
-                                    text-decoration: none;
-                                    padding: 1px 5px;
-                                    border-radius: 3px;
-                                    font-size: 12px;
-                                }
-                                a.btn-size:hover {
-                                    background-color: #e6e6e6;
-                                    border-color: #adadad;
-                                }
+                            .status {
+                                background-color: @background-color-status;
+                                padding: 5px 5px;
+                                color: #ffffff;
+                                border: 1px solid #398439;
+                                border-radius: 5px;
+                                text-decoration: @a-none;
+                                display: inline-block;
+
                             }
-                        }
-                    }
-                    .product-price {
-                        margin-top: 50px;
-                        padding: 5px 10px;
-                        background-color: #FFF;
-                        text-align: left;
-                        border: 2px dashed #E0E0E0; 
-                        .price {
-                            color: #26B99A;
-                            margin: 0;
-                            font-weight: 400;
-                        }
-                        .price-tax {
-                            font-size: 18px;
-                        }
-                    }
-                    .product-btnadd {
-                        margin-top: 25px;
-                        .add-to-cart {
-                            margin-bottom: 5px;
-                            margin-right: 5px;
-                            color: #333;
-                            background-color: #fff;
-                            border: 1px solid #ccc;
-                            padding: 10px 16px;
-                            border-radius: 5px;
-                            font-size: 18px;
-                            text-decoration: none;
-                        }
-                        .add-to-cart:hover {
-                            background-color: #e6e6e6;
-                            border-color: #adadad;
-                        }
-                    }
-                    .product-social {
-                        margin-top: 35px;
-                        ul.list-social {
-                            padding-left: 0;
-                            margin-left: -5px;
-                            list-style: none;
-                            li {
-                                float: left;
-                                padding: 0 4px;
-                                margin: 0;
-                                a {
-                                    color: #5A738E;
+                            .status:hover {
+                                background-color: @background-color-status-hover;
+                            }
+                            .btn-function {
+                                .view, .edit, .delete {
+                                    padding: 5px 5px;
+                                    text-decoration: @a-none;
+                                    color: #ffffff;
+                                    border-radius: 5px;
+                                    margin-left: 8px;
+                                    display: inline-block;
+
                                     i {
-                                        font-size: 35px;
+                                        padding-right: 3px;
                                     }
                                 }
-                                a:hover {
-                                    color: #337ab7;
 
+                                .view {
+                                    background-color: @background-color-view;
+                                    border: 1px solid @border-color-view;
+                                }
+                                .view:hover {
+                                    background-color: @background-color-view-hover;
+                                }
+
+                                .edit {
+                                    background-color: @background-color-edit;
+                                    border: 1px solid @border-color-edit;
+                                }
+                                .edit:hover {
+                                    background-color: @background-color-edit-hover;
+                                }
+
+                                .delete {
+                                    background-color: @background-color-delete;
+                                    border: 1px solid @border-color-delete;
+                                }
+                                .delete:hover {
+                                    background-color: @background-color-delete-hover;
                                 }
                             }
                         }
-                    }                    
-                }
-                ul.nav-tabs {
-                    margin-top: 25px;
-                    padding-left: 10px;
-                    background: #F5F7FA;
-                    li {
-                        color: #333!important;
-                        background: #F5F7FA;
-                        border-bottom: none;
-                        border-radius: 4px 4px 0 0;
-                        a {
-                            color: #5A738E;
+                        tr:nth-child(even){
+                            background-color: @background-color-tr-child;
                         }
-                    }
-                }
-                .tab-content {
-                    padding: 10px 0;
-                    #menu1, #menu2 {
-                        padding: 0;
                     }
                 }
             }
@@ -567,11 +503,6 @@ and open the template in the editor.
         .content-right {
             margin-top: -5px;
         }
-    }
-    .product-name {
-        h3 {
-            display: inline-block;
-        }        
     }
 }
 .type-f-12.toggled {

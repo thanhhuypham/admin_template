@@ -154,7 +154,7 @@
                                             <a href="index_e-commerce.php">E-commerce</a>
                                         </li>
                                         <li>
-                                            <a href="#">Projects</a>
+                                            <a href="index_projects.php">Projects</a>
                                         </li>
                                         <li>
                                             <a href="#">Project Detail</a>
