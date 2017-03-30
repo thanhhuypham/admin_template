@@ -1,0 +1,168 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2017, 2:49:40 PM
+    Author     : Administrator
+*/
+
+@color-body: #73879C;
+@font-size: 17px;
+@none: none;
+@background-color-button-contact: #26B99A;
+@border-color-button-contact: #169F85;
+@border-color-button-contact-hover: #169F85;
+@background-color-button-view: #337ab7;
+@border-color-button-view: #2e6da4;
+@border-color-button-view-hover: #286090;
+
+.type-39 {
+    color: @color-body;
+    .content {
+        .content-left {
+            float: left;
+            h3 {
+                margin: 20px 0;
+
+            }
+        }
+        .content-right {
+            float: right;
+            .input-search {
+                margin-top: 22px;
+                position: relative;
+                display: flex;
+                .form-search {
+                    box-shadow: inset 0 1px 0 rgba(0,0,0,.075);
+                    border-radius: 25px 0 0 25px;
+                    padding-left: 20px;
+                    border: 1px solid rgba(221,226,232,.49);
+                }
+                .input-btn-search {
+                    .btn-search {
+                        border-radius: 0 25px 25px 0;
+                        border: 1px solid rgba(221,226,232,.49);
+                        border-left: 0;
+                        background-color: #ffffff;
+                        color: #73879C;
+                    }
+                    .btn-search:hover {
+                        background-color:#93A2B2;
+                    }
+                }
+            }
+        }
+    }
+    .admin-panel {
+        width: 100%;
+        padding: 10px 17px;
+        display: inline-block;
+        background: #fff;
+        border: 1px solid #E6E9ED;
+        opacity: 1;
+        transition: all .2s ease;
+        margin-bottom: 10px;
+        position: relative;
+
+        .admin-title {
+            text-align: center;
+            ul.word {
+                display: inline-block;
+                padding-bottom: 5px;
+                margin: 25px 0;
+                li {
+                    list-style: none;
+                    float: left;
+                    margin: 0 3px;
+                    padding: 0;
+                    a {
+                        text-decoration: none;
+                        color: #768399;
+                        padding: 5px 10px;
+                        background-color: #fff;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                    }
+                }
+            }
+        }
+        .admin-content {
+            .contact-info-user {
+                border: 1px solid #e0e0e0;
+                border-radius: 5px;
+                .profile-view {
+                    .contact-info {
+                        h5 {
+                            padding-left: 12px;
+                            i {
+                                font-size: @font-size;
+                            }
+                        }
+                        .contact-user {
+                            padding-left: 5px;
+
+                            i {
+                                margin-right: 5px;
+                            }
+                        }
+                    }
+                    img {
+                        max-width: 100%;
+                        border-radius: 100px;
+                        border: 1px solid #E6E9ED;
+                        padding: 2px;
+                    }
+                }
+                .profile-evaluate {
+                    margin-top: 15px;
+                    background-color: #F2F5F7;
+                    padding: 10px 0;
+                    border-top: 1px solid #E6E9ED;                    
+                    .ratings {
+                        font-size: @font-size;
+                        margin: 0 0 0;
+                    }
+                    a.btn-contact, a.btn-view {
+                        text-decoration: @none;
+                        padding: 3px 4px;
+                        color: #ffffff;
+                        border-radius: 4px;
+                        margin-right: 5px;
+                    }
+
+                    a.btn-contact {
+                        background-color: @background-color-button-contact;
+                        border: 1px solid @border-color-button-contact;
+                    }
+                    a.btn-contact:hover {
+                        background-color: @border-color-button-contact-hover;
+                    }
+
+                    a.btn-view {
+                        background-color: @background-color-button-view;
+                        border: 1px solid @border-color-button-view;
+                    }
+                    a.btn-view:hover {
+                        background-color: @border-color-button-view-hover;
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+@media (max-width: 980px) {
+    .content {
+        .content-left {
+            h3 {
+                font-size: 16px;
+            }
+        }
+        .content-right {
+            margin-top: -5px;
+        }
+    }
+}

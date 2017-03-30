@@ -1,0 +1,128 @@
+.type-39 {
+  color: #73879C;
+}
+.type-39 .content .content-left {
+  float: left;
+}
+.type-39 .content .content-left h3 {
+  margin: 20px 0;
+}
+.type-39 .content .content-right {
+  float: right;
+}
+.type-39 .content .content-right .input-search {
+  margin-top: 22px;
+  position: relative;
+  display: flex;
+}
+.type-39 .content .content-right .input-search .form-search {
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.075);
+  border-radius: 25px 0 0 25px;
+  padding-left: 20px;
+  border: 1px solid rgba(221,226,232,0.49);
+}
+.type-39 .content .content-right .input-search .input-btn-search .btn-search {
+  border-radius: 0 25px 25px 0;
+  border: 1px solid rgba(221,226,232,0.49);
+  border-left: 0;
+  background-color: #ffffff;
+  color: #73879C;
+}
+.type-39 .content .content-right .input-search .input-btn-search .btn-search:hover {
+  background-color: #93A2B2;
+}
+.type-39 .admin-panel {
+  width: 100%;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  opacity: 1;
+  transition: all .2s ease;
+  margin-bottom: 10px;
+  position: relative;
+}
+.type-39 .admin-panel .admin-title {
+  text-align: center;
+}
+.type-39 .admin-panel .admin-title ul.word {
+  display: inline-block;
+  padding-bottom: 5px;
+  margin: 25px 0;
+}
+.type-39 .admin-panel .admin-title ul.word li {
+  list-style: none;
+  float: left;
+  margin: 0 3px;
+  padding: 0;
+}
+.type-39 .admin-panel .admin-title ul.word li a {
+  text-decoration: none;
+  color: #768399;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-view .contact-info h5 {
+  padding-left: 12px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-view .contact-info h5 i {
+  font-size: 17px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-view .contact-info .contact-user {
+  padding-left: 5px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-view .contact-info .contact-user i {
+  margin-right: 5px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-view img {
+  max-width: 100%;
+  border-radius: 100px;
+  border: 1px solid #E6E9ED;
+  padding: 2px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate {
+  margin-top: 15px;
+  background-color: #F2F5F7;
+  padding: 10px 0;
+  border-top: 1px solid #E6E9ED;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate .ratings {
+  font-size: 17px;
+  margin: 0 0 0;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate a.btn-contact,
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate a.btn-view {
+  text-decoration: none;
+  padding: 3px 4px;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate a.btn-contact {
+  background-color: #26B99A;
+  border: 1px solid #169F85;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate a.btn-contact:hover {
+  background-color: #169F85;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate a.btn-view {
+  background-color: #337ab7;
+  border: 1px solid #2e6da4;
+}
+.type-39 .admin-panel .admin-content .contact-info-user .profile-evaluate a.btn-view:hover {
+  background-color: #286090;
+}
+@media (max-width: 980px) {
+  .content .content-left h3 {
+    font-size: 16px;
+  }
+  .content .content-right {
+    margin-top: -5px;
+  }
+}
