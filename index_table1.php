@@ -157,7 +157,7 @@
                                             <a href="#">Project Detail</a>
                                         </li>
                                         <li>
-                                            <a href="#">Contacts</a>
+                                            <a href="index_contacts.php">Contacts</a>
                                         </li>
                                         <li  style="margin-bottom: 8px;">
                                             <a href="#">Profile</a>

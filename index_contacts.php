@@ -61,7 +61,7 @@
                                         <li>
                                             <a href="index_dashboard2.php">Dashboard2</a>
                                         </li>
-                                        <li class="current-page" style="margin-bottom: 8px;">
+                                        <li style="margin-bottom: 8px;">
                                             <a href="index_dashboard3.php">Dashboard3</a>
                                         </li>
                                     </ul>
@@ -148,13 +148,13 @@
                                         <li style="margin-top: 2px;">
                                             <a href="index_e-commerce.php">E-commerce</a>
                                         </li>
-                                        <li class="current-page">
+                                        <li>
                                             <a href="index_projects.php">Projects</a>
                                         </li>
                                         <li>
                                             <a href="#">Project Detail</a>
                                         </li>
-                                        <li>
+                                        <li class="current-page">
                                             <a href="index_contacts.php">Contacts</a>
                                         </li>
                                         <li style="margin-bottom: 8px;">
