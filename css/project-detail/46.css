@@ -1,0 +1,112 @@
+.type-46 {
+  padding-left: 0;
+}
+.type-46 .top-nav .nav_menu {
+  float: left;
+  background-color: #ededed;
+  border-bottom: 1px solid #d9dee4;
+  width: 100%;
+}
+.type-46 .top-nav .nav_menu .toggle {
+  float: left;
+  margin: 0;
+  padding-top: 15px;
+  width: 70px;
+  color: #e7e7e7;
+}
+.type-46 .top-nav .nav_menu .toggle a {
+  padding: 15px 15px 0;
+  margin: 0;
+  cursor: pointer;
+  color: #5A738E;
+}
+.type-46 .top-nav .nav_menu .toggle a i {
+  font-size: 26px;
+}
+.type-46 .top-nav .navbar-right {
+  margin: 0;
+  width: 70%;
+  float: right;
+}
+.type-46 .top-nav .navbar-right li {
+  position: relative;
+  float: right;
+  display: inline-block;
+  cursor: pointer;
+}
+.type-46 .top-nav .navbar-right li a {
+  color: #515356;
+  line-height: 32px;
+}
+.type-46 .top-nav .navbar-right li a img {
+  max-width: none;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.type-46 .top-nav .navbar-right li ul.user-profile li a span,
+.type-46 .top-nav .navbar-right li ul.user-profile li a i {
+  float: right;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list {
+  width: 300px;
+  position: absolute;
+  background: #fff;
+  margin-top: 0;
+  border: 1px solid #D9DEE4;
+  right: 0;
+  left: auto;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li {
+  position: relative;
+  background: #f7f7f7;
+  padding: 5px;
+  margin: 6px 6px 0;
+  width: 96%;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li a {
+  width: 100%;
+  color: #5A738E;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li a span {
+  white-space: normal;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li a .image,
+.type-46 .top-nav .navbar-right li ul.msg_list li a .name {
+  cursor: pointer;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li a .image img {
+  float: left;
+  margin-right: 10px;
+  width: 11%;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li a .time {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 700;
+  position: absolute;
+  right: 35px;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li a .msg {
+  display: block;
+  font-size: 13px;
+  font-style: italic;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li .text-center a {
+  text-decoration: none;
+}
+.type-46 .top-nav .navbar-right li ul.msg_list li:hover {
+  background-color: none;
+}
+.type-46 .top-nav .navbar-right li .info-number .badge {
+  font-size: 13px;
+  line-height: 13px;
+  padding: 2px 6px;
+  position: absolute;
+  right: 2px;
+  top: 8px;
+  background-color: #1ABB9C;
+  border: 1px solid #1ABB9C;
+  color: #fff;
+}
