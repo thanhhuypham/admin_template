@@ -35,7 +35,7 @@
   width: 100%;
   padding: 10px 17px;
   display: inline-block;
-  background: #fff;
+  background-color: #ffffff;
   border: 1px solid #E6E9ED;
   opacity: 1;
   transition: all .2s ease;
@@ -76,7 +76,7 @@
   opacity: 1;
 }
 .type-43 .admin-panel .admin-content {
-  margin-top: 20px;
+  margin: 20px 8px;
 }
 .type-43 .admin-panel .admin-content .avartar-profile h4.name-profile {
   font-size: 24px;
@@ -113,6 +113,84 @@
 }
 .type-43 .admin-panel .admin-content .avartar-profile .skills .progress .progress-bar {
   height: 10px !important;
+}
+.type-43 .admin-panel .admin-content .user-report {
+  background-color: #F5F7FA;
+  padding: 7px 10px;
+}
+.type-43 .admin-panel .admin-content .user-report #reportrange {
+  margin-top: 5px;
+  float: right;
+  border: 1px solid #E6E9ED;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #ffffff;
+}
+.type-43 .admin-panel .admin-content #mybarChart {
+  margin-top: 25px;
+  width: 484px;
+  height: 242px;
+}
+.type-43 .admin-panel .admin-content ul.nav-tabs {
+  margin-top: 10px;
+  padding-left: 10px;
+  background-color: #F5F7FA;
+}
+.type-43 .admin-panel .admin-content ul.nav-tabs li {
+  color: #333 !important;
+  background-color: #F5F7FA;
+  border-bottom: none;
+  border-radius: 4px 4px 0 0;
+}
+.type-43 .admin-panel .admin-content ul.nav-tabs li a {
+  color: #5A738E;
+}
+.type-43 .admin-panel .admin-content .tab-content {
+  padding: 10px 0;
+}
+.type-43 .admin-panel .admin-content .tab-content #menu1,
+.type-43 .admin-panel .admin-content .tab-content #menu2 {
+  padding: 0;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li {
+  border-bottom: 1px dotted #e6e6e6;
+  padding: 8px 0;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li .img-user {
+  height: 32px;
+  width: 32px;
+  float: left;
+  display: inline-block;
+  border-radius: 2px;
+  padding: 2px;
+  background-color: #f7f7f7;
+  border: 1px solid #e6e6e6;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li .comment-content {
+  margin-left: 50px;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li .comment-content h4 {
+  margin: 0 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li .comment-content .content {
+  padding: 0 10px;
+  margin: 0;
+  border-left: 5px solid #eee;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li .comment-content a.link-file {
+  text-decoration: none;
+  color: #73879C;
+}
+.type-43 .admin-panel .admin-content .tab-content #home ul.comments li .date-comment {
+  float: right;
+  text-align: right;
 }
 @media (max-width: 980px) {
   .content .content-left h3 {

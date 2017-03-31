@@ -7,7 +7,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Module - Footer profile</title>
+        <title>Module - Footer e-commerce</title>
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <?php
@@ -15,13 +15,13 @@
             include ('../../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../../less/projects/36.less', '../../css/projects/36.css');
+        $less->compileFile('../../less/profile/44.less', '../../css/profile/44.css');
         ?>
-        <link href="../../css/projects/36.css" rel="stylesheet" type="text/css"/>
+        <link href="../../css/profile/44.css" rel="stylesheet" type="text/css"/>
     </head>
 
     <body>
-        <div class="type-36">
+        <div class="type-44">
             <div class="container">
                 <footer>
                     Gentelella - Bootstrap Admin Template by

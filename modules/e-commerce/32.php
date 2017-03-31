@@ -21,7 +21,7 @@
     </head>
 
     <body>
-        <div class="type-14">
+        <div class="type-32">
             <div class="container">
                 <footer>
                     Gentelella - Bootstrap Admin Template by
