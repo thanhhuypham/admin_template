@@ -157,7 +157,7 @@
                                             <a href="index_projects.php">Projects</a>
                                         </li>
                                         <li>
-                                            <a href="#">Project Detail</a>
+                                            <a href="index_projects-detail.php">Project Detail</a>
                                         </li>
                                         <li>
                                             <a href="index_contacts.php">Contacts</a>
