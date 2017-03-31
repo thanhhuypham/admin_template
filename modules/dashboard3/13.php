@@ -78,7 +78,7 @@
                                         </div>
                                         <div class="col-xs-8">
                                             <div class="progress">
-                                                <div class="progress-bar" role="progressbar" data-transitiongoal="89" aria-valuenow="88"></div>
+                                                <div class="progress-bar" style="width: 89%"></div>
                                             </div>
                                         </div>
                                         <div class="col-xs-2">
@@ -95,7 +95,7 @@
                                         </div>
                                         <div class="col-xs-8">
                                             <div class="progress">
-                                                <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="89" aria-valuenow="88" style="width: 79%;"></div>
+                                                <div class="progress-bar" style="width: 79%;"></div>
                                             </div>
                                         </div>
                                         <div class="col-xs-2">
@@ -112,7 +112,7 @@
                                         </div>
                                         <div class="col-xs-8">
                                             <div class="progress">
-                                                <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="89" aria-valuenow="88" style="width: 69%;"></div>
+                                                <div class="progress-bar" style="width: 69%;"></div>
                                             </div>
                                         </div>
                                         <div class="col-xs-2">

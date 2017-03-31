@@ -564,6 +564,12 @@
   margin-top: 5px;
   width: 100%;
 }
+.type-f-12 .container-fluid .admin-panel.admin3 .admin-content .progress {
+  height: 10px;
+}
+.type-f-12 .container-fluid .admin-panel.admin3 .admin-content .progress .progress-bar {
+  height: 10px !important;
+}
 .type-f-12 .container-fluid .admin-panel.admin3 .admin-content h2 {
   font-size: 20px;
 }

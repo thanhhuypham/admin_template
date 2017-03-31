@@ -51,6 +51,12 @@
   margin-top: 5px;
   width: 100%;
 }
+.type-13 .admin-panel .admin-content .info-progress .progress {
+  height: 10px;
+}
+.type-13 .admin-panel .admin-content .info-progress .progress .progress-bar {
+  height: 10px !important;
+}
 .type-13 .admin-panel .admin-content h2 {
   font-size: 20px;
 }

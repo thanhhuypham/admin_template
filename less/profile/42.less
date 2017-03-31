@@ -1,0 +1,147 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2017, 9:09:24 AM
+    Author     : ITLAB
+*/
+
+@font-size: 13px;
+@background-color: #ededed;
+@background-color-sidebar: #172D44;
+@color: #73879C;
+
+.type-42 {
+    padding-left: 0;
+    .top-nav {
+        .nav_menu {
+            float: left;
+            background-color: @background-color;
+            border-bottom: 1px solid #d9dee4;
+            width: 100%;
+
+            .toggle {
+                float:left;
+                margin: 0;
+                padding-top: 15px;
+                width: 70px;
+                color: #e7e7e7;
+                a {
+                    padding: 15px 15px 0;
+                    margin: 0;
+                    cursor: pointer;
+                    color: #5A738E;
+                    i {
+                        font-size: 26px;
+                    }
+
+                }
+            }
+        }
+        .navbar-right {
+            margin: 0;
+            width: 70%;
+            float: right;
+
+            li {
+                position: relative;
+                float: right;
+                display: inline-block;
+                cursor: pointer;
+                a {
+                    color: #515356;
+                    line-height: 32px;
+
+                    img {
+                        max-width: none;
+                        width: 29px;
+                        height: 29px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+                ul.user-profile {
+                    li {
+                        a {
+                            span, i {
+                                float: right;
+                            }
+                        }
+                    }
+                }
+                ul.msg_list {
+                    width: 300px;
+                    position: absolute;
+                    background: #fff;
+                    margin-top: 0;
+                    border: 1px solid #D9DEE4;
+                    right: 0;
+                    left: auto;
+                    li {
+                        position: relative;
+                        background: #f7f7f7;
+                        padding: 5px;
+                        margin: 6px 6px 0;
+                        width: 96%;
+
+                        a {
+                            width: 100%;
+                            color: #5A738E;
+
+                            span {
+                                white-space: normal;
+                            }
+                            .image, .name {
+                                cursor: pointer;
+                            }
+                            .image {
+                                img {
+                                    float: left;
+                                    margin-right: 10px;
+                                    width: 11%;
+                                }
+                            }
+                            .time {
+                                font-size: @font-size;
+                                font-style: italic;
+                                font-weight: 700;
+                                position: absolute;
+                                right: 35px;
+                            }
+                            .msg {
+                                display: block;
+                                font-size: @font-size;
+                                font-style: italic;
+                            }
+                        }
+
+                        .text-center {
+                            a {
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    li:hover {
+                        background-color: none;
+                    }
+                }
+                .info-number {
+                    .badge {
+                        font-size: @font-size;
+                        line-height: 13px;
+                        padding: 2px 6px;
+                        position: absolute;
+                        right: 2px;
+                        top: 8px;
+                        background-color: #1ABB9C;
+                        border: 1px solid #1ABB9C;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+}

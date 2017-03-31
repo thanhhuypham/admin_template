@@ -1,0 +1,124 @@
+.type-43 {
+  color: #73879C;
+}
+.type-43 .content .content-left {
+  float: left;
+}
+.type-43 .content .content-left h3 {
+  margin: 20px 0;
+}
+.type-43 .content .content-right {
+  float: right;
+}
+.type-43 .content .content-right .input-search {
+  margin-top: 22px;
+  position: relative;
+  display: flex;
+}
+.type-43 .content .content-right .input-search .form-search {
+  box-shadow: inset 0 1px 0 rgba(0,0,0,0.075);
+  border-radius: 25px 0 0 25px;
+  padding-left: 20px;
+  border: 1px solid rgba(221,226,232,0.49);
+}
+.type-43 .content .content-right .input-search .input-btn-search .btn-search {
+  border-radius: 0 25px 25px 0;
+  border: 1px solid rgba(221,226,232,0.49);
+  border-left: 0;
+  background-color: #ffffff;
+  color: #73879C;
+}
+.type-43 .content .content-right .input-search .input-btn-search .btn-search:hover {
+  background-color: #93A2B2;
+}
+.type-43 .admin-panel {
+  width: 100%;
+  padding: 10px 17px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #E6E9ED;
+  opacity: 1;
+  transition: all .2s ease;
+  margin-bottom: 10px;
+  position: relative;
+}
+.type-43 .admin-panel .admin-title {
+  border-bottom: 2px solid #E6E9ED;
+  padding: 1px 5px 6px;
+}
+.type-43 .admin-panel .admin-title h3 {
+  margin: 5px 0 6px;
+  float: left;
+  display: block;
+  font-size: 18px;
+}
+.type-43 .admin-panel .admin-title h3 small {
+  margin-left: 5px;
+}
+.type-43 .admin-panel .admin-title ul.items {
+  margin-right: 0;
+  min-width: 70px;
+  float: right;
+  list-style: none;
+  margin-top: 5px;
+}
+.type-43 .admin-panel .admin-title ul.items li {
+  float: left;
+  cursor: pointer;
+}
+.type-43 .admin-panel .admin-title ul.items li a {
+  padding: 5px;
+  color: #C5C7CB;
+  font-size: 13px;
+}
+.type-43 .admin-panel .admin-title ul.items .collapse-link,
+.type-43 .admin-panel .admin-title ul.items .close-link {
+  opacity: 1;
+}
+.type-43 .admin-panel .admin-content {
+  margin-top: 20px;
+}
+.type-43 .admin-panel .admin-content .avartar-profile h4.name-profile {
+  font-size: 24px;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .info-profile i {
+  margin: 8px 0;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .btn-edit {
+  margin-top: 10px;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .btn-edit a {
+  padding: 7px 5px;
+  color: #ffffff;
+  background-color: #26B99A;
+  border: 1px solid #169F85;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .btn-edit a:hover {
+  background-color: #169F85;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .skills {
+  padding: 12px 0;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .skills h4 {
+  font-weight: normal;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .skills p {
+  margin-bottom: 0;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .skills .progress {
+  max-width: 90%;
+  height: 10px;
+}
+.type-43 .admin-panel .admin-content .avartar-profile .skills .progress .progress-bar {
+  height: 10px !important;
+}
+@media (max-width: 980px) {
+  .content .content-left h3 {
+    font-size: 16px;
+  }
+  .content .content-right {
+    margin-top: -5px;
+  }
+}
