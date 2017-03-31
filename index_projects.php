@@ -153,13 +153,13 @@
                                             <a href="index_projects.php">Projects</a>
                                         </li>
                                         <li>
-                                            <a href="#">Project Detail</a>
+                                            <a href="index_projects-detail.php">Project Detail</a>
                                         </li>
                                         <li>
                                             <a href="index_contacts.php">Contacts</a>
                                         </li>
                                         <li style="margin-bottom: 8px;">
-                                            <a href="#">Profile</a>
+                                            <a href="index_profile.php">Profile</a>
                                         </li>
                                     </ul>
                                 </li>
