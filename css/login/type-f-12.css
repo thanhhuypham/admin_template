@@ -1,0 +1,57 @@
+.type-f-12 .title-login {
+  color: #73879C;
+}
+.type-f-12 .title-login hr {
+  border-top: 1px solid #73879C;
+  margin-top: 40px;
+}
+.type-f-12 .title-login h2 {
+  text-align: center;
+}
+.type-f-12 .title-login .login-form form {
+  margin: 15px 0;
+}
+.type-f-12 .title-login .login-form form .form-control {
+  margin-bottom: 15px;
+}
+.type-f-12 .title-login .login-form .functions {
+  text-align: center;
+  padding-top: 5px;
+}
+.type-f-12 .title-login .login-form .functions #btn-login,
+.type-f-12 .title-login .login-form .functions #link-lostpass {
+  text-decoration: none;
+}
+.type-f-12 .title-login .login-form .functions #btn-login {
+  padding: 7px 12px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  color: #333;
+  border-radius: 4px;
+}
+.type-f-12 .title-login .login-form .functions #btn-login:hover {
+  background-color: #e6e6e6;
+}
+.type-f-12 .title-login .login-form .functions #link-lostpass {
+  color: #73879C;
+}
+.type-f-12 .title-login .login-footer {
+  text-align: center;
+}
+.type-f-12 .title-login .login-footer p {
+  margin-top: 30px;
+}
+.type-f-12 .title-login .login-footer p a {
+  text-decoration: none;
+  color: #73879C;
+}
+.type-f-12 .title-login .login-footer h3 {
+  margin: 25px 0;
+}
+.type-f-12 .title-login .login-footer h3 a.logo {
+  text-decoration: none;
+  color: #73879C;
+}
+.type-f-12 .title-login .login-footer .footer {
+  margin: 0;
+}
