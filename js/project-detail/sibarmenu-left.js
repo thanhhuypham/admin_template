@@ -13,6 +13,7 @@ function toggleMenuHome() {
     document.getElementById("child-data").style.display = "none";
     document.getElementById("child-layout").style.display = "none";
     document.getElementById("child-additional").style.display = "none";
+    document.getElementById("child-extras").style.display = "none";
 }
 
 function toggleMenuTables() {
@@ -23,7 +24,7 @@ function toggleMenuTables() {
     document.getElementById("child-data").style.display = "none";
     document.getElementById("child-layout").style.display = "none";
     document.getElementById("child-additional").style.display = "none";
-
+    document.getElementById("child-extras").style.display = "none";
 }
 
 function toggleMenuForms() {
@@ -34,6 +35,7 @@ function toggleMenuForms() {
     document.getElementById("child-data").style.display = "none";
     document.getElementById("child-layout").style.display = "none";
     document.getElementById("child-additional").style.display = "none";
+    document.getElementById("child-extras").style.display = "none";
 }
 
 function toggleMenuElements() {
@@ -44,6 +46,7 @@ function toggleMenuElements() {
     document.getElementById("child-data").style.display = "none";
     document.getElementById("child-layout").style.display = "none";
     document.getElementById("child-additional").style.display = "none";
+    document.getElementById("child-extras").style.display = "none";
 }
 
 function toggleMenuDataPresentation() {
@@ -54,6 +57,7 @@ function toggleMenuDataPresentation() {
     document.getElementById("child-elements").style.display = "none";
     document.getElementById("child-layout").style.display = "none";
     document.getElementById("child-additional").style.display = "none";
+    document.getElementById("child-extras").style.display = "none";
 }
 
 function toggleMenuLayouts() {
@@ -64,6 +68,7 @@ function toggleMenuLayouts() {
     document.getElementById("child-elements").style.display = "none";
     document.getElementById("child-data").style.display = "none";
     document.getElementById("child-additional").style.display = "none";
+    document.getElementById("child-extras").style.display = "none";
 }
 
 function toggleMenuAdditional() {
@@ -74,4 +79,17 @@ function toggleMenuAdditional() {
     document.getElementById("child-elements").style.display = "none";
     document.getElementById("child-data").style.display = "none";
     document.getElementById("child-layout").style.display = "none";
+    document.getElementById("child-extras").style.display = "none";
+}
+
+function toggleMenuExtras() {
+    document.getElementById("child-extras").style.display = "block";
+    document.getElementById("child-forms").style.display = "none";
+    document.getElementById("child-tables").style.display = "none";
+    document.getElementById("child-home").style.display = "none";
+    document.getElementById("child-elements").style.display = "none";
+    document.getElementById("child-data").style.display = "none";
+    document.getElementById("child-layout").style.display = "none";
+    document.getElementById("child-additional").style.display = "none";
+
 }

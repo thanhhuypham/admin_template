@@ -7,23 +7,24 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Module - Slide bar left dashboard3</title>
+        <title>Module - Sidebar left profile</title>
+
         <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="../../css/font-awesome.min.css">
 
         <?php
         if (!class_exists('lessc')) {
             include ('../../libs/lessc.inc.php');
         }
         $less = new lessc;
-        $less->compileFile('../../less/dashboard3/8.less', '../../css/dashboard3/8.css');
+        $less->compileFile('../../less/pricing-tables/49.less', '../../css/pricing-tables/49.css');
         ?>
-        <link href="../../css/dashboard3/8.css" rel="stylesheet" type="text/css"/>
-        <script src="../../js/dashboard3/8/sibarmenu-left.js" type="text/javascript"></script>
-
+        <link rel="stylesheet" href="../../css/pricing-tables/49.css">
+        <script src="../../js/pricing-tables/49/sibarmenu-left.js" type="text/javascript"></script>
     </head>
+
     <body>
-        <div class="type-8">
+        <div class="type-49">
             <div class="container-fluid">
                 <div class="col-md-2 col-sm-12 col-xs-12">
                     <div class="sidebar-left"> 
@@ -49,7 +50,7 @@
                                             <i class="fa fa-home"></i>Home<i class="fa fa-chevron-down"></i>
                                         </a>
                                     </div>
-                                    <ul class="child-menu" id="child-home">
+                                    <ul class="child-menu" id="child-home" style="display: none;">
                                         <li>
                                             <a href="#">Dashboard</a>
                                         </li>
@@ -91,7 +92,7 @@
                                         <li><a href="#">Widgets</a></li>
                                         <li><a href="#">Invoice</a></li>
                                         <li><a href="#">Inbox</a></li>
-                                        <li  style="margin-bottom: 8px;"><a href="#">Calendar</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#">Calendar</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -101,8 +102,8 @@
                                         </a>
                                     </div>
                                     <ul class="child-menu" id="child-tables" style="display: none;">
-                                        <li><a href="#">Tables</a></li>
-                                        <li><a href="#">Table Dynamic</a></li>
+                                        <li style="margin-top: 6px;"><a href="#">Tables</a></li>
+                                        <li><a href="#" style="margin-bottom: 8px;">Table Dynamic</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -116,7 +117,7 @@
                                         <li><a href="#">Chart JS2</a></li>
                                         <li><a href="#">Moris JS</a></li>
                                         <li><a href="#">ECharts</a></li>
-                                        <li  style="margin-bottom: 8px;"><a href="#">Other Charts</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#">Other Charts</a></li>
                                     </ul>
                                 </li>
                                 <li>
@@ -127,7 +128,7 @@
                                     </div>
                                     <ul class="child-menu" id="child-layout" style="display: none;">
                                         <li><a href="#">Fixed Sidebar</a></li>
-                                        <li  style="margin-bottom: 8px;"><a href="#">Fixed Footer</a></li>
+                                        <li style="margin-bottom: 8px;"><a href="#">Fixed Footer</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -140,7 +141,7 @@
                                         </a>
                                     </div>
                                     <ul class="child-menu" id="child-additional" style="display: none;">
-                                        <li>
+                                        <li style="margin-top: 2px;">
                                             <a href="#">E-commerce</a>
                                         </li>
                                         <li>
@@ -152,7 +153,7 @@
                                         <li>
                                             <a href="#">Contacts</a>
                                         </li>
-                                        <li  style="margin-bottom: 8px;">
+                                        <li style="margin-bottom: 8px;">
                                             <a href="#">Profile</a>
                                         </li>
                                     </ul>
@@ -163,7 +164,7 @@
                                             <i class="fa fa-windows"></i>Extras<i class="fa fa-chevron-down"></i>
                                         </a>
                                     </div>
-                                    <ul class="child-menu" id="child-extras" style="display: none;">
+                                    <ul class="child-menu" id="child-extras" style="display: block;">
                                         <li>
                                             <a href="#">403 Error</a>
                                         </li>
@@ -179,7 +180,7 @@
                                         <li>
                                             <a href="#">Login Page</a>
                                         </li>
-                                        <li style="margin-bottom: 8px;">
+                                        <li class="current-page" style="margin-bottom: 8px;">
                                             <a href="#">Pricing Tables</a>
                                         </li>
                                     </ul>

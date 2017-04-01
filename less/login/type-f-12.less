@@ -7,16 +7,18 @@ and open the template in the editor.
     Created on : Apr 1, 2017, 7:46:06 AM
     Author     : Administrator
 */
-
+@text-decoration: none;
+@text-align: center;
+@color: #73879C;
 .type-f-12 {
     .title-login {
-        color: #73879C;
+        color: @color;
         hr {
             border-top: 1px solid #73879C;
             margin-top: 40px;
         }
         h2 {
-            text-align: center;
+            text-align: @text-align;
         }
         .login-form {
             form {
@@ -44,26 +46,26 @@ and open the template in the editor.
                     background-color: #e6e6e6;
                 }
                 #link-lostpass {
-                    color: #73879C;
+                    color: @color;
                 }
             }
 
         }
         .login-footer {
-            text-align: center;
+            text-align: @text-align;
 
             p {
                 margin-top: 30px;
                 a {
-                    text-decoration: none;
-                    color: #73879C;
+                    text-decoration: @text-decoration;
+                    color: @color;
                 }
             }
             h3 {
                 margin: 25px 0;
                 a.logo {
-                    text-decoration: none;
-                    color: #73879C;
+                    text-decoration: @text-decoration;
+                    color: @color;
                 }
             }
             .footer {

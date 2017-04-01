@@ -158,12 +158,12 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <div class="parent-menu">
+                                    <div class="parent-menu" onclick="toggleMenuExtras()">
                                         <a href="#">
                                             <i class="fa fa-windows"></i>Extras<i class="fa fa-chevron-down"></i>
                                         </a>
                                     </div>
-                                    <ul class="child-menu" style="display: none;">
+                                    <ul class="child-menu" id="child-extras" style="display: none;">
                                         <li>
                                             <a href="#">403 Error</a>
                                         </li>
