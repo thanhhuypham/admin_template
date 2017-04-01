@@ -22,6 +22,7 @@
         <link rel="stylesheet" href="css/e-commerce/type-f-12.css">
         <script src="js/e-commerce/jquery-2.1.4.min.js" type="text/javascript"></script>
         <script src="js/e-commerce/bootstrap.min.js" type="text/javascript"></script>
+        <script src="js/e-commerce/custom-script.js" type="text/javascript"></script>
         <script src="js/e-commerce/back-to-top.js" type="text/javascript"></script>
         <script src="js/e-commerce/sibarmenu-left.js" type="text/javascript"></script>
         <script src="js/e-commerce/flexible-menu.js" type="text/javascript"></script>
