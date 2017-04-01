@@ -186,7 +186,7 @@
                                             <a href="index_login.php">Login Page</a>
                                         </li>
                                         <li style="margin-bottom: 8px;">
-                                            <a href="#">Pricing Tables</a>
+                                            <a href="index_pricing-tables.php">Pricing Tables</a>
                                         </li>
                                     </ul>
                                 </li> 
