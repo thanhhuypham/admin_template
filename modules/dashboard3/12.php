@@ -11,8 +11,6 @@
 
         <link href="../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../../css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" type="text/css"/>
-        <link href="../../css/daterangepicker.css" rel="stylesheet" type="text/css"/>
         <?php
         if (!class_exists('lessc')) {
             include ('../../libs/lessc.inc.php');
@@ -25,7 +23,6 @@
         <script src="../../js/dashboard3/12/bootstrap.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/12/chart.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/12/gauge.min.js" type="text/javascript"></script>
-        <script src="../../js/dashboard3/12/bootstrap-progressbar.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/12/jquery.sparkline.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/12/custom-script.js" type="text/javascript"></script>
 
