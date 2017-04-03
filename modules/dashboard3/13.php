@@ -25,7 +25,6 @@
         <script src="../../js/dashboard3/13/chart.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/13/gauge.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/13/skycons.js" type="text/javascript"></script>
-        <script src="../../js/dashboard3/13/bootstrap-progressbar.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/13/jquery.sparkline.min.js" type="text/javascript"></script>
         <script src="../../js/dashboard3/13/custom-script.js" type="text/javascript"></script>
 
